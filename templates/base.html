@@ -33,6 +33,41 @@
     {% block content %}{% endblock %}
   </main>
 
+  <!-- Chatbot Widget -->
+  <div id="chatbot">
+    <!-- Floating Toggle Button -->
+    <button id="chatToggle" class="chat-toggle" aria-label="Open chat">
+      <i class="fas fa-comments"></i>
+    </button>
+
+    <!-- Chat Window -->
+    <div id="chatWindow" class="chat-window">
+      <div class="chat-header">
+        <div class="chat-header-info">
+          <div class="chat-avatar">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div>
+            <h4>CurrBot</h4>
+            <span class="status">Online</span>
+          </div>
+        </div>
+        <button id="chatClose" class="chat-close" aria-label="Close chat">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div id="chatMessages" class="chat-messages">
+        <!-- Messages will be added here -->
+      </div>
+      <div class="chat-input-area">
+        <input type="text" id="chatInput" placeholder="Ask me about curricula..." autocomplete="off">
+        <button id="chatSend" class="chat-send" aria-label="Send message">
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
   <!-- Footer -->
   <footer>
     <div class="container">
@@ -41,5 +76,7 @@
   </footer>
 
   {% block scripts %}{% endblock %}
+  <script src="/static/chatbot.js"></script>
 </body>
 </html>
+
