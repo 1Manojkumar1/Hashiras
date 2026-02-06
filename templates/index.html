@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CurrHub | AI-Powered Curriculum Generator</title>
+  
+  <!-- ✅ FIXED: Use absolute path for static files -->
+  <link rel="stylesheet" href="/static/style.css" />
+  
+  <!-- ✅ FIXED: Removed extra spaces in URLs -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- ✅ ADDED: Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <div class="logo">CurrHub</div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Transform Education with AI</h1>
+      <p>Generate industry-aligned, accreditation-ready curricula in seconds.</p>
+      
+      <!-- Feature Cards -->
+      <div class="features">
+        <div class="feature-card">
+          <i class="fas fa-robot"></i>
+          <h3>AI-Powered</h3>
+          <p>Generative AI creates structured, modern curricula.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-layer-group"></i>
+          <h3>Modular Design</h3>
+          <p>Customize by domain, level, and accreditation body.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-file-export"></i>
+          <h3>Export Ready</h3>
+          <p>Download as PDF or integrate with your LMS.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main App -->
+  <main class="app-container">
+    <div class="container">
+      <div class="columns">
+        <!-- Input Form -->
+        <div class="form-column">
+          <div class="card">
+            <h2>Build Your Curriculum</h2>
+            <form id="curriculumForm">
+              <div class="form-group">
+                <label for="program_type">Program Type</label>
+                <select id="program_type" name="program_type" required>
+                  <option value="">-- Select --</option>
+                  <option value="B.Tech">B.Tech</option>
+                  <option value="M.Tech">M.Tech</option>
+                  <option value="B.Sc">B.Sc</option>
+                  <option value="MBA">MBA</option>
+                  <option value="PhD">PhD</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="domain">Domain</label>
+                <input type="text" id="domain" name="domain" placeholder="e.g., Artificial Intelligence" required>
+              </div>
+
+              <div class="form-group">
+                <label for="academic_level">Academic Level</label>
+                <select id="academic_level" name="academic_level" required>
+                  <option value="">-- Select --</option>
+                  <option value="Undergraduate">Undergraduate</option>
+                  <option value="Graduate">Graduate</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="duration_semesters">Duration (Semesters)</label>
+                <input type="number" id="duration_semesters" name="duration_semesters" min="2" max="12" value="6" required>
+              </div>
+
+              <div class="form-group">
+                <label for="accreditation_body">Accreditation Body</label>
+                <input type="text" id="accreditation_body" name="accreditation_body" placeholder="e.g., NAAC, ABET" required>
+              </div>
+
+              <button type="submit" class="btn-primary">✨ Generate Curriculum</button>
+            </form>
+          </div>
+
+          <!-- Vision Card -->
+          <div class="card vision-card">
+            <h3>Build Your Vision</h3>
+            <ul>
+              <li><i class="fas fa-check-circle"></i> Course structure generation</li>
+              <li><i class="fas fa-check-circle"></i> Topic recommendations</li>
+              <li><i class="fas fa-check-circle"></i> Curriculum planning</li>
+              <li><i class="fas fa-check-circle"></i> Learning outcome mapping</li>
+              <li><i class="fas fa-check-circle"></i> Academic optimization</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Preview Panel -->
+        <div class="preview-column">
+          <div class="card preview-panel" id="previewPanel">
+            <div class="placeholder-text" id="placeholderText">
+              <i class="fas fa-graduation-cap"></i>
+              <p>Your AI-generated curriculum will appear here.</p>
+            </div>
+            
+            <!-- ✅ ADDED: Loading Indicator (Hidden by default) -->
+            <div id="loadingIndicator" class="placeholder-text" style="display: none;">
+              <i class="fas fa-spinner fa-spin"></i>
+              <p>Generating your curriculum with AI...</p>
+            </div>
+
+            <div id="previewContent" style="display: none;">
+              <h2 id="previewTitle"></h2>
+              <div id="previewCourses"></div>
+              <button class="btn-secondary" onclick="downloadPDF()">📥 Download as PDF</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer / About / Contact -->
+  <section id="about" class="info-section">
+    <div class="container">
+      <h2>About CurrHub</h2>
+      <p>CurrHub is a Generative AI-powered platform that helps educators design future-ready, industry-aligned academic programs in minutes — not months.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="info-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: team@currhub.edu | GitHub: @currhub</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 CurrHub. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ✅ FIXED: Use absolute path for JS -->
+  <script src="/static/script.js"></script>
+</body>
+</html>

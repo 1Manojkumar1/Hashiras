@@ -1,0 +1,4983 @@
+{
+  "B.Tech_Artificial Intelligence": {
+    "program_title": "Bachelor of Technology in Artificial Intelligence",
+    "program_type": "B.Tech",
+    "domain": "Artificial Intelligence",
+    "academic_level": "Undergraduate",
+    "total_semesters": 8,
+    "program_rationale": "This B.Tech in Artificial Intelligence is designed to address the growing demand for AI professionals in the global technology sector. The curriculum provides a rigorous foundation in machine learning, deep learning, and neural network architectures, preparing graduates to lead AI innovation across industries from healthcare to autonomous systems.",
+    "target_careers": [
+      "AI Engineer",
+      "Machine Learning Engineer",
+      "Data Scientist",
+      "Research Scientist",
+      "AI Product Manager"
+    ],
+    "accreditation_aligned": "Aligned with NAAC/NBA 2026 Framework",
+    "courses_by_semester": {
+      "Semester 1": [
+        {
+          "course_code": "AI101",
+          "course_name": "Foundations of Artificial Intelligence",
+          "category": "Foundational",
+          "description": "Introduction to AI concepts, history, and applications. Students learn problem-solving techniques, search algorithms, and basic reasoning methods.",
+          "credits": 4,
+          "prerequisites": [],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Introduction to AI",
+              "description": "History, Turing Test, and AI applications",
+              "resources": [
+                "Russell & Norvig: AI A Modern Approach"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "Intelligent Agents",
+              "description": "Agent types and environments",
+              "resources": [
+                "AI Textbook Ch. 2"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "Problem Solving by Search",
+              "description": "BFS, DFS, and heuristic search",
+              "resources": [
+                "Search Algorithms Paper"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Informed Search Strategies",
+              "description": "A* algorithm and greedy search",
+              "resources": [
+                "Pathfinding Tutorial"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "Adversarial Search",
+              "description": "Minimax and Alpha-Beta pruning",
+              "resources": [
+                "Game Theory Basics"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "Constraint Satisfaction",
+              "description": "CSP formulation and backtracking",
+              "resources": [
+                "CSP Research Paper"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Design intelligent agents for complex environments",
+              "bloom_level": "Create",
+              "code": "NBA-PO1"
+            },
+            {
+              "outcome": "Analyze and compare search algorithms",
+              "bloom_level": "Analyze",
+              "code": "NBA-PO2"
+            }
+          ]
+        },
+        {
+          "course_code": "AI102",
+          "course_name": "Python for AI",
+          "category": "Core Requirement",
+          "description": "Comprehensive Python programming with focus on data manipulation, NumPy, Pandas, and visualization libraries essential for AI development.",
+          "credits": 4,
+          "prerequisites": [],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Python Fundamentals",
+              "description": "Variables, data types, control flow",
+              "resources": [
+                "Python Documentation"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "Functions and OOP",
+              "description": "Functions, classes, and inheritance",
+              "resources": [
+                "Python OOP Guide"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "NumPy for Numerical Computing",
+              "description": "Arrays, broadcasting, and linear algebra",
+              "resources": [
+                "NumPy User Guide"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Pandas for Data Analysis",
+              "description": "DataFrames, data cleaning, and manipulation",
+              "resources": [
+                "Pandas Documentation"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "Data Visualization",
+              "description": "Matplotlib and Seaborn for plotting",
+              "resources": [
+                "Visualization Best Practices"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "File I/O and APIs",
+              "description": "Working with JSON, CSV, and REST APIs",
+              "resources": [
+                "Requests Library Docs"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Develop data processing pipelines in Python",
+              "bloom_level": "Create",
+              "code": "NBA-PO3"
+            },
+            {
+              "outcome": "Apply numerical computing for AI applications",
+              "bloom_level": "Apply",
+              "code": "NBA-PO4"
+            }
+          ]
+        },
+        {
+          "course_code": "AI103",
+          "course_name": "Mathematics for AI",
+          "category": "Foundational",
+          "description": "Essential mathematical foundations including linear algebra, calculus, probability, and statistics required for understanding AI algorithms.",
+          "credits": 4,
+          "prerequisites": [],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Linear Algebra Fundamentals",
+              "description": "Vectors, matrices, and operations",
+              "resources": [
+                "3Blue1Brown Linear Algebra"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "Matrix Decomposition",
+              "description": "Eigenvalues, SVD, and PCA foundations",
+              "resources": [
+                "MIT OCW Linear Algebra"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "Calculus for Optimization",
+              "description": "Derivatives, gradients, and chain rule",
+              "resources": [
+                "Calculus Made Easy"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Multivariable Calculus",
+              "description": "Partial derivatives and Jacobians",
+              "resources": [
+                "Khan Academy Multivariable"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "Probability Theory",
+              "description": "Distributions, Bayes theorem, and conditional probability",
+              "resources": [
+                "Probability for ML Book"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "Statistics for ML",
+              "description": "Hypothesis testing, regression, and correlation",
+              "resources": [
+                "Statistics in Plain English"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply linear algebra to ML model computations",
+              "bloom_level": "Apply",
+              "code": "NBA-PO5"
+            },
+            {
+              "outcome": "Evaluate statistical models for data analysis",
+              "bloom_level": "Evaluate",
+              "code": "NBA-PO6"
+            }
+          ]
+        }
+      ],
+      "Semester 2": [
+        {
+          "course_code": "AI201",
+          "course_name": "Machine Learning Fundamentals",
+          "category": "Core Requirement",
+          "description": "Core machine learning algorithms including supervised, unsupervised, and reinforcement learning with practical implementation.",
+          "credits": 4,
+          "prerequisites": [
+            "AI101",
+            "AI103"
+          ],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "ML Pipeline Overview",
+              "description": "Data preprocessing, training, and evaluation",
+              "resources": [
+                "Scikit-learn Documentation"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "Linear Regression",
+              "description": "Cost functions and gradient descent",
+              "resources": [
+                "Andrew Ng ML Course"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "Logistic Regression",
+              "description": "Classification and decision boundaries",
+              "resources": [
+                "ML Mastery Guide"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Decision Trees & Random Forests",
+              "description": "Tree-based ensemble methods",
+              "resources": [
+                "XGBoost Documentation"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "Support Vector Machines",
+              "description": "Kernel tricks and margin optimization",
+              "resources": [
+                "SVM Tutorial"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "Model Evaluation",
+              "description": "Cross-validation, ROC, and metrics",
+              "resources": [
+                "Evaluation Metrics Paper"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Implement and compare ML algorithms",
+              "bloom_level": "Create",
+              "code": "NBA-PO7"
+            },
+            {
+              "outcome": "Evaluate model performance using appropriate metrics",
+              "bloom_level": "Evaluate",
+              "code": "NBA-PO8"
+            }
+          ]
+        },
+        {
+          "course_code": "AI202",
+          "course_name": "Data Structures and Algorithms",
+          "category": "Core Requirement",
+          "description": "Advanced data structures and algorithmic techniques essential for efficient AI system implementation.",
+          "credits": 4,
+          "prerequisites": [
+            "AI102"
+          ],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Arrays and Linked Lists",
+              "description": "Memory management and traversal",
+              "resources": [
+                "CLRS Algorithms Book"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "Stacks and Queues",
+              "description": "LIFO/FIFO operations and applications",
+              "resources": [
+                "Data Structures Visualized"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "Trees and Graphs",
+              "description": "Binary trees, BST, and graph representations",
+              "resources": [
+                "Graph Theory Primer"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Hashing and Hash Tables",
+              "description": "Collision resolution and applications",
+              "resources": [
+                "Hashing Algorithms Paper"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "Sorting and Searching",
+              "description": "QuickSort, MergeSort, and binary search",
+              "resources": [
+                "Sorting Visualization"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "Dynamic Programming",
+              "description": "Memoization and optimization problems",
+              "resources": [
+                "DP Patterns Guide"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Design efficient data structures for AI applications",
+              "bloom_level": "Create",
+              "code": "NBA-PO9"
+            },
+            {
+              "outcome": "Analyze algorithm complexity",
+              "bloom_level": "Analyze",
+              "code": "NBA-PO10"
+            }
+          ]
+        },
+        {
+          "course_code": "AI203",
+          "course_name": "Deep Learning Foundations",
+          "category": "Core Requirement",
+          "description": "Introduction to neural networks, backpropagation, and deep learning frameworks like TensorFlow and PyTorch.",
+          "credits": 4,
+          "prerequisites": [
+            "AI201"
+          ],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Perceptrons and Neural Networks",
+              "description": "Single-layer and multi-layer architectures",
+              "resources": [
+                "Deep Learning Book Ch. 6"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "Activation Functions",
+              "description": "Sigmoid, ReLU, and modern activations",
+              "resources": [
+                "Activation Functions Comparison"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "Backpropagation",
+              "description": "Gradient computation and chain rule",
+              "resources": [
+                "Backprop Explained"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Optimization Algorithms",
+              "description": "SGD, Adam, and learning rate scheduling",
+              "resources": [
+                "Optimizer Comparison Paper"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "TensorFlow Basics",
+              "description": "Tensors, graphs, and Keras API",
+              "resources": [
+                "TensorFlow Tutorial"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "PyTorch Fundamentals",
+              "description": "Autograd and dynamic computation",
+              "resources": [
+                "PyTorch 60-Minute Blitz"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Build neural networks using modern frameworks",
+              "bloom_level": "Create",
+              "code": "NBA-PO11"
+            },
+            {
+              "outcome": "Apply optimization techniques for training",
+              "bloom_level": "Apply",
+              "code": "NBA-PO12"
+            }
+          ]
+        }
+      ],
+      "Semester 3": [
+        {
+          "course_code": "AI301",
+          "course_name": "Computer Vision",
+          "category": "Core Requirement",
+          "credits": 4,
+          "prerequisites": [
+            "AI203"
+          ],
+          "description": "Image processing, object detection, and visual recognition using deep learning.",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Image Fundamentals",
+              "description": "Pixels, color spaces, and image representation"
+            },
+            {
+              "week": 2,
+              "title": "Image Filtering",
+              "description": "Convolutions, edge detection, and transformations"
+            },
+            {
+              "week": 3,
+              "title": "Feature Extraction",
+              "description": "SIFT, SURF, and ORB features"
+            },
+            {
+              "week": 4,
+              "title": "CNNs for Vision",
+              "description": "LeNet, AlexNet, VGG architectures"
+            },
+            {
+              "week": 5,
+              "title": "Object Detection",
+              "description": "YOLO, R-CNN, and bounding boxes"
+            },
+            {
+              "week": 6,
+              "title": "Image Segmentation",
+              "description": "Semantic and instance segmentation"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Build computer vision pipelines",
+              "bloom_level": "Create",
+              "code": "NBA-PO13"
+            }
+          ]
+        },
+        {
+          "course_code": "AI302",
+          "course_name": "Natural Language Processing",
+          "category": "Core Requirement",
+          "credits": 4,
+          "prerequisites": [
+            "AI201"
+          ],
+          "description": "Text processing, language models, and NLP applications.",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Text Preprocessing",
+              "description": "Tokenization, stemming, and lemmatization"
+            },
+            {
+              "week": 2,
+              "title": "Word Embeddings",
+              "description": "Word2Vec, GloVe, and FastText"
+            },
+            {
+              "week": 3,
+              "title": "Sequence Models",
+              "description": "RNNs and LSTMs for text"
+            },
+            {
+              "week": 4,
+              "title": "Attention Mechanisms",
+              "description": "Self-attention and transformers"
+            },
+            {
+              "week": 5,
+              "title": "BERT and GPT",
+              "description": "Pre-trained language models"
+            },
+            {
+              "week": 6,
+              "title": "NLP Applications",
+              "description": "Sentiment analysis, NER, and QA"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply NLP techniques to text data",
+              "bloom_level": "Apply",
+              "code": "NBA-PO14"
+            }
+          ]
+        },
+        {
+          "course_code": "AI303",
+          "course_name": "Probability and Statistics for AI",
+          "category": "Foundational",
+          "credits": 4,
+          "prerequisites": [
+            "AI103"
+          ],
+          "description": "Advanced statistical methods essential for machine learning.",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Bayesian Inference",
+              "description": "Prior, posterior, and likelihood"
+            },
+            {
+              "week": 2,
+              "title": "Graphical Models",
+              "description": "Bayesian networks and Markov models"
+            },
+            {
+              "week": 3,
+              "title": "Expectation Maximization",
+              "description": "EM algorithm and applications"
+            },
+            {
+              "week": 4,
+              "title": "Monte Carlo Methods",
+              "description": "Sampling and MCMC"
+            },
+            {
+              "week": 5,
+              "title": "Information Theory",
+              "description": "Entropy, KL divergence, and mutual information"
+            },
+            {
+              "week": 6,
+              "title": "Statistical Testing",
+              "description": "A/B testing and hypothesis validation"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply statistical reasoning to AI problems",
+              "bloom_level": "Apply",
+              "code": "NBA-PO15"
+            }
+          ]
+        }
+      ],
+      "Semester 4": [
+        {
+          "course_code": "AI401",
+          "course_name": "Reinforcement Learning",
+          "category": "Specialization",
+          "credits": 4,
+          "prerequisites": [
+            "AI201"
+          ],
+          "description": "Sequential decision making and reward-based learning.",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "MDP Fundamentals",
+              "description": "States, actions, and rewards"
+            },
+            {
+              "week": 2,
+              "title": "Value Functions",
+              "description": "V(s) and Q(s,a) functions"
+            },
+            {
+              "week": 3,
+              "title": "Policy Gradient",
+              "description": "REINFORCE and actor-critic"
+            },
+            {
+              "week": 4,
+              "title": "Deep RL",
+              "description": "DQN and A3C algorithms"
+            },
+            {
+              "week": 5,
+              "title": "Model-Based RL",
+              "description": "World models and planning"
+            },
+            {
+              "week": 6,
+              "title": "Multi-Agent RL",
+              "description": "Cooperative and competitive agents"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Design RL agents for complex environments",
+              "bloom_level": "Create",
+              "code": "NBA-PO16"
+            }
+          ]
+        },
+        {
+          "course_code": "AI402",
+          "course_name": "AI Systems Engineering",
+          "category": "Core Requirement",
+          "credits": 4,
+          "prerequisites": [
+            "AI203"
+          ],
+          "description": "Building production-ready AI systems.",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "ML System Design",
+              "description": "Architecture patterns for AI"
+            },
+            {
+              "week": 2,
+              "title": "Data Pipelines",
+              "description": "ETL and feature stores"
+            },
+            {
+              "week": 3,
+              "title": "Model Training at Scale",
+              "description": "Distributed training"
+            },
+            {
+              "week": 4,
+              "title": "Model Serving",
+              "description": "APIs and inference optimization"
+            },
+            {
+              "week": 5,
+              "title": "Monitoring and Debugging",
+              "description": "Model drift and observability"
+            },
+            {
+              "week": 6,
+              "title": "MLOps Practices",
+              "description": "CI/CD for ML systems"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Deploy AI systems at scale",
+              "bloom_level": "Create",
+              "code": "NBA-PO17"
+            }
+          ]
+        },
+        {
+          "course_code": "AI403",
+          "course_name": "Advanced Deep Learning",
+          "category": "Specialization",
+          "credits": 4,
+          "prerequisites": [
+            "AI203"
+          ],
+          "description": "Advanced neural network architectures and techniques.",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "ResNets and Skip Connections",
+              "description": "Deep residual learning"
+            },
+            {
+              "week": 2,
+              "title": "Transformer Architectures",
+              "description": "Multi-head attention"
+            },
+            {
+              "week": 3,
+              "title": "Generative Models",
+              "description": "VAEs and GANs"
+            },
+            {
+              "week": 4,
+              "title": "Diffusion Models",
+              "description": "Stable diffusion and DDPM"
+            },
+            {
+              "week": 5,
+              "title": "Graph Neural Networks",
+              "description": "GCN and message passing"
+            },
+            {
+              "week": 6,
+              "title": "Neural Architecture Search",
+              "description": "AutoML techniques"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Implement advanced DL architectures",
+              "bloom_level": "Create",
+              "code": "NBA-PO18"
+            }
+          ]
+        }
+      ],
+      "Semester 5": [
+        {
+          "course_code": "AI501",
+          "course_name": "AI Ethics and Governance",
+          "category": "Core Requirement",
+          "credits": 4,
+          "prerequisites": [],
+          "description": "Ethical considerations and responsible AI development.",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "AI Ethics Foundations",
+              "description": "Principles and frameworks"
+            },
+            {
+              "week": 2,
+              "title": "Bias and Fairness",
+              "description": "Algorithmic bias detection"
+            },
+            {
+              "week": 3,
+              "title": "Explainability",
+              "description": "Interpretable AI methods"
+            },
+            {
+              "week": 4,
+              "title": "Privacy in AI",
+              "description": "Differential privacy and federated learning"
+            },
+            {
+              "week": 5,
+              "title": "AI Regulation",
+              "description": "EU AI Act and global policies"
+            },
+            {
+              "week": 6,
+              "title": "Responsible AI",
+              "description": "Building ethical AI systems"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Evaluate AI systems for ethical compliance",
+              "bloom_level": "Evaluate",
+              "code": "NBA-PO19"
+            }
+          ]
+        },
+        {
+          "course_code": "AI502",
+          "course_name": "Robotics and Autonomous Systems",
+          "category": "Elective",
+          "credits": 4,
+          "prerequisites": [
+            "AI301"
+          ],
+          "description": "AI for robotics and autonomous agents.",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Robot Perception",
+              "description": "Sensor fusion and SLAM"
+            },
+            {
+              "week": 2,
+              "title": "Motion Planning",
+              "description": "Path planning algorithms"
+            },
+            {
+              "week": 3,
+              "title": "Robot Control",
+              "description": "PID and model predictive control"
+            },
+            {
+              "week": 4,
+              "title": "Manipulation",
+              "description": "Grasping and object handling"
+            },
+            {
+              "week": 5,
+              "title": "Autonomous Vehicles",
+              "description": "Self-driving car systems"
+            },
+            {
+              "week": 6,
+              "title": "Human-Robot Interaction",
+              "description": "Collaborative robotics"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Design autonomous robotic systems",
+              "bloom_level": "Create",
+              "code": "NBA-PO20"
+            }
+          ]
+        },
+        {
+          "course_code": "AI503",
+          "course_name": "AI Research Methods",
+          "category": "Core Requirement",
+          "credits": 4,
+          "prerequisites": [],
+          "description": "Research methodology for AI practitioners.",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Literature Review",
+              "description": "Reading and analyzing papers"
+            },
+            {
+              "week": 2,
+              "title": "Experiment Design",
+              "description": "Hypothesis and controls"
+            },
+            {
+              "week": 3,
+              "title": "Benchmarking",
+              "description": "Datasets and metrics"
+            },
+            {
+              "week": 4,
+              "title": "Reproducibility",
+              "description": "Code and experiment tracking"
+            },
+            {
+              "week": 5,
+              "title": "Paper Writing",
+              "description": "Structure and presentation"
+            },
+            {
+              "week": 6,
+              "title": "Peer Review",
+              "description": "Critiquing research"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Conduct AI research independently",
+              "bloom_level": "Create",
+              "code": "NBA-PO21"
+            }
+          ]
+        }
+      ],
+      "Semester 6": [
+        {
+          "course_code": "AI601",
+          "course_name": "Large Language Models",
+          "category": "Specialization",
+          "credits": 4,
+          "prerequisites": [
+            "AI302"
+          ],
+          "description": "Building and deploying large language models.",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "LLM Architecture",
+              "description": "GPT, LLaMA, and scaling laws"
+            },
+            {
+              "week": 2,
+              "title": "Pre-training",
+              "description": "Datasets and training objectives"
+            },
+            {
+              "week": 3,
+              "title": "Fine-tuning",
+              "description": "Instruction tuning and RLHF"
+            },
+            {
+              "week": 4,
+              "title": "Prompt Engineering",
+              "description": "Few-shot and chain-of-thought"
+            },
+            {
+              "week": 5,
+              "title": "RAG Systems",
+              "description": "Retrieval-augmented generation"
+            },
+            {
+              "week": 6,
+              "title": "LLM Applications",
+              "description": "Agents and tool use"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Build LLM-powered applications",
+              "bloom_level": "Create",
+              "code": "NBA-PO22"
+            }
+          ]
+        },
+        {
+          "course_code": "AI602",
+          "course_name": "Edge AI and Embedded ML",
+          "category": "Elective",
+          "credits": 4,
+          "prerequisites": [
+            "AI203"
+          ],
+          "description": "Deploying AI on edge devices.",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Edge Computing",
+              "description": "IoT and edge architecture"
+            },
+            {
+              "week": 2,
+              "title": "Model Compression",
+              "description": "Pruning and quantization"
+            },
+            {
+              "week": 3,
+              "title": "TinyML",
+              "description": "ML on microcontrollers"
+            },
+            {
+              "week": 4,
+              "title": "Hardware Accelerators",
+              "description": "GPUs, TPUs, and NPUs"
+            },
+            {
+              "week": 5,
+              "title": "Optimization Frameworks",
+              "description": "TensorRT and ONNX"
+            },
+            {
+              "week": 6,
+              "title": "Real-time Inference",
+              "description": "Latency optimization"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Deploy ML models on edge devices",
+              "bloom_level": "Apply",
+              "code": "NBA-PO23"
+            }
+          ]
+        },
+        {
+          "course_code": "AI603",
+          "course_name": "AI for Healthcare",
+          "category": "Elective",
+          "credits": 4,
+          "prerequisites": [
+            "AI201"
+          ],
+          "description": "AI applications in medical diagnosis and healthcare.",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Medical Imaging",
+              "description": "CT, MRI, and X-ray analysis"
+            },
+            {
+              "week": 2,
+              "title": "Disease Prediction",
+              "description": "Risk models and prognosis"
+            },
+            {
+              "week": 3,
+              "title": "Drug Discovery",
+              "description": "AI in pharmaceutical research"
+            },
+            {
+              "week": 4,
+              "title": "Clinical NLP",
+              "description": "Medical records analysis"
+            },
+            {
+              "week": 5,
+              "title": "Healthcare Regulations",
+              "description": "HIPAA and FDA compliance"
+            },
+            {
+              "week": 6,
+              "title": "Telemedicine AI",
+              "description": "Virtual health assistants"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply AI to healthcare problems",
+              "bloom_level": "Apply",
+              "code": "NBA-PO24"
+            }
+          ]
+        }
+      ],
+      "Semester 7": [
+        {
+          "course_code": "AI701",
+          "course_name": "Industry Internship",
+          "category": "Practical",
+          "credits": 8,
+          "prerequisites": [],
+          "description": "16-week industry internship at an AI company.",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Onboarding",
+              "description": "Company culture and project assignment"
+            },
+            {
+              "week": 2,
+              "title": "Problem Definition",
+              "description": "Understanding business requirements"
+            },
+            {
+              "week": 3,
+              "title": "Data Analysis",
+              "description": "Exploring company datasets"
+            },
+            {
+              "week": 4,
+              "title": "Model Development",
+              "description": "Building AI solutions"
+            },
+            {
+              "week": 5,
+              "title": "Deployment",
+              "description": "Production implementation"
+            },
+            {
+              "week": 6,
+              "title": "Presentation",
+              "description": "Final project demo"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply AI skills in industry setting",
+              "bloom_level": "Apply",
+              "code": "NBA-PO25"
+            }
+          ]
+        },
+        {
+          "course_code": "AI702",
+          "course_name": "AI Entrepreneurship",
+          "category": "Elective",
+          "credits": 4,
+          "prerequisites": [],
+          "description": "Building AI startups and products.",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "AI Market Analysis",
+              "description": "Identifying opportunities"
+            },
+            {
+              "week": 2,
+              "title": "Product-Market Fit",
+              "description": "Validating AI solutions"
+            },
+            {
+              "week": 3,
+              "title": "Business Models",
+              "description": "Monetization strategies"
+            },
+            {
+              "week": 4,
+              "title": "Funding and Pitching",
+              "description": "VC and investor relations"
+            },
+            {
+              "week": 5,
+              "title": "Team Building",
+              "description": "Hiring AI talent"
+            },
+            {
+              "week": 6,
+              "title": "Scaling AI Products",
+              "description": "Growth strategies"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Launch an AI venture",
+              "bloom_level": "Create",
+              "code": "NBA-PO26"
+            }
+          ]
+        }
+      ],
+      "Semester 8": [
+        {
+          "course_code": "AI801",
+          "course_name": "Capstone Project - Part 1",
+          "category": "Capstone",
+          "credits": 6,
+          "prerequisites": [],
+          "description": "Major project solving real-world AI problems - Phase 1.",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Project Proposal",
+              "description": "Problem statement and objectives"
+            },
+            {
+              "week": 2,
+              "title": "Literature Survey",
+              "description": "Related work analysis"
+            },
+            {
+              "week": 3,
+              "title": "System Design",
+              "description": "Architecture and methodology"
+            },
+            {
+              "week": 4,
+              "title": "Data Collection",
+              "description": "Dataset preparation"
+            },
+            {
+              "week": 5,
+              "title": "Initial Prototype",
+              "description": "MVP development"
+            },
+            {
+              "week": 6,
+              "title": "Progress Review",
+              "description": "Mid-project evaluation"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Design AI research project",
+              "bloom_level": "Create",
+              "code": "NBA-PO27"
+            }
+          ]
+        },
+        {
+          "course_code": "AI802",
+          "course_name": "Capstone Project - Part 2",
+          "category": "Capstone",
+          "credits": 6,
+          "prerequisites": [
+            "AI801"
+          ],
+          "description": "Major project solving real-world AI problems - Phase 2.",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Model Development",
+              "description": "Algorithm implementation"
+            },
+            {
+              "week": 2,
+              "title": "Experimentation",
+              "description": "Training and tuning"
+            },
+            {
+              "week": 3,
+              "title": "Evaluation",
+              "description": "Performance analysis"
+            },
+            {
+              "week": 4,
+              "title": "Documentation",
+              "description": "Technical report writing"
+            },
+            {
+              "week": 5,
+              "title": "Presentation",
+              "description": "Final defense preparation"
+            },
+            {
+              "week": 6,
+              "title": "Project Submission",
+              "description": "Final deliverables"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Complete end-to-end AI project",
+              "bloom_level": "Create",
+              "code": "NBA-PO28"
+            }
+          ]
+        }
+      ]
+    },
+    "recommended_skills": [
+      "TensorFlow",
+      "PyTorch",
+      "Python",
+      "Linear Algebra",
+      "Statistics"
+    ],
+    "industry_alignment_notes": "This curriculum is aligned with industry demands from major tech companies including Google, Microsoft, and emerging AI startups.",
+    "optimization_tips": [
+      "Add specialization tracks in NLP or Computer Vision",
+      "Include industry internship in final year"
+    ]
+  },
+  "B.Tech_Data Science": {
+    "program_title": "Bachelor of Technology in Data Science",
+    "program_type": "B.Tech",
+    "domain": "Data Science",
+    "academic_level": "Undergraduate",
+    "total_semesters": 8,
+    "program_rationale": "This B.Tech in Data Science prepares students to extract insights from complex datasets and drive data-driven decision making. The curriculum combines statistical foundations, machine learning, and business analytics to produce graduates capable of transforming raw data into strategic value.",
+    "target_careers": [
+      "Data Scientist",
+      "Data Analyst",
+      "Business Intelligence Analyst",
+      "ML Engineer",
+      "Analytics Consultant"
+    ],
+    "accreditation_aligned": "Aligned with NAAC/NBA 2026 Framework",
+    "courses_by_semester": {
+      "Semester 1": [
+        {
+          "course_code": "DS101",
+          "course_name": "Introduction to Data Science",
+          "category": "Foundational",
+          "description": "Overview of data science lifecycle, tools, and methodologies. Students learn to frame business problems as data science projects.",
+          "credits": 4,
+          "prerequisites": [],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Data Science Lifecycle",
+              "description": "CRISP-DM and data science workflow",
+              "resources": [
+                "Data Science Handbook"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "Data Collection Methods",
+              "description": "Surveys, APIs, and web scraping",
+              "resources": [
+                "Web Scraping Guide"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "Exploratory Data Analysis",
+              "description": "Summary statistics and visualization",
+              "resources": [
+                "EDA Best Practices"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Data Cleaning",
+              "description": "Handling missing values and outliers",
+              "resources": [
+                "Data Cleaning Tutorial"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "Feature Engineering",
+              "description": "Creating predictive features",
+              "resources": [
+                "Feature Engineering Book"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "Introduction to ML",
+              "description": "Supervised vs unsupervised learning",
+              "resources": [
+                "ML Crash Course"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Design end-to-end data science projects",
+              "bloom_level": "Create",
+              "code": "NBA-PO1"
+            },
+            {
+              "outcome": "Apply EDA techniques to real datasets",
+              "bloom_level": "Apply",
+              "code": "NBA-PO2"
+            }
+          ]
+        },
+        {
+          "course_code": "DS102",
+          "course_name": "Statistics and Probability",
+          "category": "Foundational",
+          "description": "Statistical foundations for data science including probability distributions, hypothesis testing, and regression analysis.",
+          "credits": 4,
+          "prerequisites": [],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Descriptive Statistics",
+              "description": "Mean, median, variance, and distributions",
+              "resources": [
+                "Statistics Textbook"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "Probability Fundamentals",
+              "description": "Events, conditional probability, Bayes theorem",
+              "resources": [
+                "Probability Primer"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "Probability Distributions",
+              "description": "Normal, binomial, and Poisson distributions",
+              "resources": [
+                "Distribution Visualizer"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Sampling and Estimation",
+              "description": "Confidence intervals and sampling methods",
+              "resources": [
+                "Sampling Theory Guide"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "Hypothesis Testing",
+              "description": "t-tests, chi-square, and p-values",
+              "resources": [
+                "Hypothesis Testing Tutorial"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "Regression Analysis",
+              "description": "Linear and multiple regression",
+              "resources": [
+                "Regression Diagnostics"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply statistical tests to validate hypotheses",
+              "bloom_level": "Apply",
+              "code": "NBA-PO3"
+            },
+            {
+              "outcome": "Evaluate model assumptions using diagnostics",
+              "bloom_level": "Evaluate",
+              "code": "NBA-PO4"
+            }
+          ]
+        },
+        {
+          "course_code": "DS103",
+          "course_name": "Python for Data Science",
+          "category": "Core Requirement",
+          "description": "Python programming with emphasis on data manipulation using Pandas, NumPy, and visualization with Matplotlib and Seaborn.",
+          "credits": 4,
+          "prerequisites": [],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Python Essentials",
+              "description": "Syntax, data types, and control flow",
+              "resources": [
+                "Python.org Tutorial"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "NumPy Arrays",
+              "description": "Array operations and broadcasting",
+              "resources": [
+                "NumPy Quickstart"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "Pandas DataFrames",
+              "description": "Data loading, filtering, and aggregation",
+              "resources": [
+                "Pandas User Guide"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Data Wrangling",
+              "description": "Merging, pivoting, and reshaping data",
+              "resources": [
+                "Data Wrangling Cheatsheet"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "Data Visualization",
+              "description": "Charts, plots, and dashboards",
+              "resources": [
+                "Seaborn Tutorial"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "Working with APIs",
+              "description": "REST APIs and JSON handling",
+              "resources": [
+                "API Integration Guide"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Build data pipelines using Python",
+              "bloom_level": "Create",
+              "code": "NBA-PO5"
+            },
+            {
+              "outcome": "Create insightful visualizations",
+              "bloom_level": "Create",
+              "code": "NBA-PO6"
+            }
+          ]
+        }
+      ],
+      "Semester 2": [
+        {
+          "course_code": "DS201",
+          "course_name": "Machine Learning",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "DS102"
+          ],
+          "description": "ML fundamentals and algorithms",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "ML Pipelines",
+              "description": "Study of ML Pipelines"
+            },
+            {
+              "week": 2,
+              "title": "Linear Regression",
+              "description": "Study of Linear Regression"
+            },
+            {
+              "week": 3,
+              "title": "Classification",
+              "description": "Study of Classification"
+            },
+            {
+              "week": 4,
+              "title": "Decision Trees",
+              "description": "Study of Decision Trees"
+            },
+            {
+              "week": 5,
+              "title": "Ensemble Methods",
+              "description": "Study of Ensemble Methods"
+            },
+            {
+              "week": 6,
+              "title": "Model Selection",
+              "description": "Study of Model Selection"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Machine Learning concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "DS202",
+          "course_name": "Database Systems",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "DS103"
+          ],
+          "description": "SQL and data management",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Relational Databases",
+              "description": "Study of Relational Databases"
+            },
+            {
+              "week": 2,
+              "title": "SQL Queries",
+              "description": "Study of SQL Queries"
+            },
+            {
+              "week": 3,
+              "title": "Joins and Subqueries",
+              "description": "Study of Joins and Subqueries"
+            },
+            {
+              "week": 4,
+              "title": "Normalization",
+              "description": "Study of Normalization"
+            },
+            {
+              "week": 5,
+              "title": "NoSQL Databases",
+              "description": "Study of NoSQL Databases"
+            },
+            {
+              "week": 6,
+              "title": "Data Warehousing",
+              "description": "Study of Data Warehousing"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Database Systems concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "DS203",
+          "course_name": "Data Visualization",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "DS103"
+          ],
+          "description": "Visual analytics and dashboards",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Visualization Principles",
+              "description": "Study of Visualization Principles"
+            },
+            {
+              "week": 2,
+              "title": "Matplotlib & Seaborn",
+              "description": "Study of Matplotlib & Seaborn"
+            },
+            {
+              "week": 3,
+              "title": "Interactive Plots",
+              "description": "Study of Interactive Plots"
+            },
+            {
+              "week": 4,
+              "title": "Dashboard Design",
+              "description": "Study of Dashboard Design"
+            },
+            {
+              "week": 5,
+              "title": "Storytelling with Data",
+              "description": "Study of Storytelling with Data"
+            },
+            {
+              "week": 6,
+              "title": "Tableau/PowerBI",
+              "description": "Study of Tableau/PowerBI"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Data Visualization concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ],
+      "Semester 3": [
+        {
+          "course_code": "DS301",
+          "course_name": "Advanced ML",
+          "category": "Specialization",
+          "credits": 3,
+          "prerequisites": [
+            "DS201"
+          ],
+          "description": "Deep learning and neural networks",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Neural Networks",
+              "description": "Study of Neural Networks"
+            },
+            {
+              "week": 2,
+              "title": "Deep Learning",
+              "description": "Study of Deep Learning"
+            },
+            {
+              "week": 3,
+              "title": "CNNs",
+              "description": "Study of CNNs"
+            },
+            {
+              "week": 4,
+              "title": "RNNs",
+              "description": "Study of RNNs"
+            },
+            {
+              "week": 5,
+              "title": "Transfer Learning",
+              "description": "Study of Transfer Learning"
+            },
+            {
+              "week": 6,
+              "title": "AutoML",
+              "description": "Study of AutoML"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Advanced ML concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "DS302",
+          "course_name": "Big Data Analytics",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "DS202"
+          ],
+          "description": "Distributed computing for data",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Hadoop Ecosystem",
+              "description": "Study of Hadoop Ecosystem"
+            },
+            {
+              "week": 2,
+              "title": "Spark Fundamentals",
+              "description": "Study of Spark Fundamentals"
+            },
+            {
+              "week": 3,
+              "title": "MapReduce",
+              "description": "Study of MapReduce"
+            },
+            {
+              "week": 4,
+              "title": "Data Lakes",
+              "description": "Study of Data Lakes"
+            },
+            {
+              "week": 5,
+              "title": "Stream Processing",
+              "description": "Study of Stream Processing"
+            },
+            {
+              "week": 6,
+              "title": "Cloud Data Platforms",
+              "description": "Study of Cloud Data Platforms"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Big Data Analytics concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "DS303",
+          "course_name": "Statistical Modeling",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "DS102"
+          ],
+          "description": "Advanced statistical methods",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Bayesian Statistics",
+              "description": "Study of Bayesian Statistics"
+            },
+            {
+              "week": 2,
+              "title": "Regression Analysis",
+              "description": "Study of Regression Analysis"
+            },
+            {
+              "week": 3,
+              "title": "Time Series",
+              "description": "Study of Time Series"
+            },
+            {
+              "week": 4,
+              "title": "Causal Inference",
+              "description": "Study of Causal Inference"
+            },
+            {
+              "week": 5,
+              "title": "Experimental Design",
+              "description": "Study of Experimental Design"
+            },
+            {
+              "week": 6,
+              "title": "A/B Testing",
+              "description": "Study of A/B Testing"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Statistical Modeling concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ],
+      "Semester 4": [
+        {
+          "course_code": "DS401",
+          "course_name": "NLP for Data Science",
+          "category": "Elective",
+          "credits": 3,
+          "prerequisites": [
+            "DS301"
+          ],
+          "description": "Text analytics and NLP",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Text Preprocessing",
+              "description": "Study of Text Preprocessing"
+            },
+            {
+              "week": 2,
+              "title": "Sentiment Analysis",
+              "description": "Study of Sentiment Analysis"
+            },
+            {
+              "week": 3,
+              "title": "Topic Modeling",
+              "description": "Study of Topic Modeling"
+            },
+            {
+              "week": 4,
+              "title": "Word Embeddings",
+              "description": "Study of Word Embeddings"
+            },
+            {
+              "week": 5,
+              "title": "Transformers",
+              "description": "Study of Transformers"
+            },
+            {
+              "week": 6,
+              "title": "Chatbots",
+              "description": "Study of Chatbots"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply NLP for Data Science concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "DS402",
+          "course_name": "Time Series Analysis",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "DS303"
+          ],
+          "description": "Forecasting methods",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Time Series Components",
+              "description": "Study of Time Series Components"
+            },
+            {
+              "week": 2,
+              "title": "ARIMA Models",
+              "description": "Study of ARIMA Models"
+            },
+            {
+              "week": 3,
+              "title": "Exponential Smoothing",
+              "description": "Study of Exponential Smoothing"
+            },
+            {
+              "week": 4,
+              "title": "Prophet",
+              "description": "Study of Prophet"
+            },
+            {
+              "week": 5,
+              "title": "LSTM for Forecasting",
+              "description": "Study of LSTM for Forecasting"
+            },
+            {
+              "week": 6,
+              "title": "Anomaly Detection",
+              "description": "Study of Anomaly Detection"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Time Series Analysis concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "DS403",
+          "course_name": "Data Engineering",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "DS302"
+          ],
+          "description": "Building data pipelines",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "ETL Processes",
+              "description": "Study of ETL Processes"
+            },
+            {
+              "week": 2,
+              "title": "Airflow",
+              "description": "Study of Airflow"
+            },
+            {
+              "week": 3,
+              "title": "Data Quality",
+              "description": "Study of Data Quality"
+            },
+            {
+              "week": 4,
+              "title": "Feature Stores",
+              "description": "Study of Feature Stores"
+            },
+            {
+              "week": 5,
+              "title": "Data Governance",
+              "description": "Study of Data Governance"
+            },
+            {
+              "week": 6,
+              "title": "MLOps Basics",
+              "description": "Study of MLOps Basics"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Data Engineering concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ],
+      "Semester 5": [
+        {
+          "course_code": "DS501",
+          "course_name": "Deep Learning",
+          "category": "Specialization",
+          "credits": 3,
+          "prerequisites": [
+            "DS301"
+          ],
+          "description": "Advanced neural networks",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "CNN Architectures",
+              "description": "Study of CNN Architectures"
+            },
+            {
+              "week": 2,
+              "title": "Sequence Models",
+              "description": "Study of Sequence Models"
+            },
+            {
+              "week": 3,
+              "title": "Attention Mechanisms",
+              "description": "Study of Attention Mechanisms"
+            },
+            {
+              "week": 4,
+              "title": "GANs",
+              "description": "Study of GANs"
+            },
+            {
+              "week": 5,
+              "title": "Autoencoders",
+              "description": "Study of Autoencoders"
+            },
+            {
+              "week": 6,
+              "title": "Neural Architecture Search",
+              "description": "Study of Neural Architecture Search"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Deep Learning concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "DS502",
+          "course_name": "Business Intelligence",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "DS203"
+          ],
+          "description": "BI tools and strategy",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "BI Fundamentals",
+              "description": "Study of BI Fundamentals"
+            },
+            {
+              "week": 2,
+              "title": "KPI Design",
+              "description": "Study of KPI Design"
+            },
+            {
+              "week": 3,
+              "title": "Executive Dashboards",
+              "description": "Study of Executive Dashboards"
+            },
+            {
+              "week": 4,
+              "title": "Self-Service BI",
+              "description": "Study of Self-Service BI"
+            },
+            {
+              "week": 5,
+              "title": "Data Storytelling",
+              "description": "Study of Data Storytelling"
+            },
+            {
+              "week": 6,
+              "title": "BI Strategy",
+              "description": "Study of BI Strategy"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Business Intelligence concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "DS503",
+          "course_name": "Ethics in Data Science",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [],
+          "description": "Responsible data practices",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Data Privacy",
+              "description": "Study of Data Privacy"
+            },
+            {
+              "week": 2,
+              "title": "Algorithmic Bias",
+              "description": "Study of Algorithmic Bias"
+            },
+            {
+              "week": 3,
+              "title": "Fairness Metrics",
+              "description": "Study of Fairness Metrics"
+            },
+            {
+              "week": 4,
+              "title": "GDPR Compliance",
+              "description": "Study of GDPR Compliance"
+            },
+            {
+              "week": 5,
+              "title": "Explainable AI",
+              "description": "Study of Explainable AI"
+            },
+            {
+              "week": 6,
+              "title": "Ethical Guidelines",
+              "description": "Study of Ethical Guidelines"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Ethics in Data Science concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ],
+      "Semester 6": [
+        {
+          "course_code": "DS601",
+          "course_name": "Recommendation Systems",
+          "category": "Elective",
+          "credits": 3,
+          "prerequisites": [
+            "DS301"
+          ],
+          "description": "Building recommender engines",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Collaborative Filtering",
+              "description": "Study of Collaborative Filtering"
+            },
+            {
+              "week": 2,
+              "title": "Content-Based",
+              "description": "Study of Content-Based"
+            },
+            {
+              "week": 3,
+              "title": "Matrix Factorization",
+              "description": "Study of Matrix Factorization"
+            },
+            {
+              "week": 4,
+              "title": "Deep Learning Recsys",
+              "description": "Study of Deep Learning Recsys"
+            },
+            {
+              "week": 5,
+              "title": "Evaluation Metrics",
+              "description": "Study of Evaluation Metrics"
+            },
+            {
+              "week": 6,
+              "title": "A/B Testing Recs",
+              "description": "Study of A/B Testing Recs"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Recommendation Systems concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "DS602",
+          "course_name": "Cloud Computing for DS",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "DS403"
+          ],
+          "description": "Cloud platforms for data",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "AWS for Data Science",
+              "description": "Study of AWS for Data Science"
+            },
+            {
+              "week": 2,
+              "title": "Azure ML",
+              "description": "Study of Azure ML"
+            },
+            {
+              "week": 3,
+              "title": "GCP BigQuery",
+              "description": "Study of GCP BigQuery"
+            },
+            {
+              "week": 4,
+              "title": "Serverless Analytics",
+              "description": "Study of Serverless Analytics"
+            },
+            {
+              "week": 5,
+              "title": "Cost Optimization",
+              "description": "Study of Cost Optimization"
+            },
+            {
+              "week": 6,
+              "title": "Multi-Cloud Strategy",
+              "description": "Study of Multi-Cloud Strategy"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Cloud Computing for DS concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "DS603",
+          "course_name": "Domain Elective",
+          "category": "Elective",
+          "credits": 3,
+          "prerequisites": [
+            "DS301"
+          ],
+          "description": "Industry-specific analytics",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Healthcare Analytics",
+              "description": "Study of Healthcare Analytics"
+            },
+            {
+              "week": 2,
+              "title": "Financial Analytics",
+              "description": "Study of Financial Analytics"
+            },
+            {
+              "week": 3,
+              "title": "Marketing Analytics",
+              "description": "Study of Marketing Analytics"
+            },
+            {
+              "week": 4,
+              "title": "Supply Chain Analytics",
+              "description": "Study of Supply Chain Analytics"
+            },
+            {
+              "week": 5,
+              "title": "IoT Analytics",
+              "description": "Study of IoT Analytics"
+            },
+            {
+              "week": 6,
+              "title": "Sports Analytics",
+              "description": "Study of Sports Analytics"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Domain Elective concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ],
+      "Semester 7": [
+        {
+          "course_code": "DS701",
+          "course_name": "Industry Internship",
+          "category": "Practical",
+          "credits": 3,
+          "prerequisites": [],
+          "description": "16-week data science internship",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Onboarding",
+              "description": "Study of Onboarding"
+            },
+            {
+              "week": 2,
+              "title": "Problem Scoping",
+              "description": "Study of Problem Scoping"
+            },
+            {
+              "week": 3,
+              "title": "Data Exploration",
+              "description": "Study of Data Exploration"
+            },
+            {
+              "week": 4,
+              "title": "Model Building",
+              "description": "Study of Model Building"
+            },
+            {
+              "week": 5,
+              "title": "Deployment",
+              "description": "Study of Deployment"
+            },
+            {
+              "week": 6,
+              "title": "Presentation",
+              "description": "Study of Presentation"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Industry Internship concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "DS702",
+          "course_name": "Research Project",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "DS501"
+          ],
+          "description": "Independent research in DS",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Literature Review",
+              "description": "Study of Literature Review"
+            },
+            {
+              "week": 2,
+              "title": "Research Design",
+              "description": "Study of Research Design"
+            },
+            {
+              "week": 3,
+              "title": "Data Collection",
+              "description": "Study of Data Collection"
+            },
+            {
+              "week": 4,
+              "title": "Analysis",
+              "description": "Study of Analysis"
+            },
+            {
+              "week": 5,
+              "title": "Paper Writing",
+              "description": "Study of Paper Writing"
+            },
+            {
+              "week": 6,
+              "title": "Peer Review",
+              "description": "Study of Peer Review"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Research Project concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ],
+      "Semester 8": [
+        {
+          "course_code": "DS801",
+          "course_name": "Capstone Project I",
+          "category": "Capstone",
+          "credits": 3,
+          "prerequisites": [],
+          "description": "Major industry project - Phase 1",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Problem Definition",
+              "description": "Study of Problem Definition"
+            },
+            {
+              "week": 2,
+              "title": "Data Acquisition",
+              "description": "Study of Data Acquisition"
+            },
+            {
+              "week": 3,
+              "title": "EDA",
+              "description": "Study of EDA"
+            },
+            {
+              "week": 4,
+              "title": "Feature Engineering",
+              "description": "Study of Feature Engineering"
+            },
+            {
+              "week": 5,
+              "title": "Baseline Models",
+              "description": "Study of Baseline Models"
+            },
+            {
+              "week": 6,
+              "title": "Progress Review",
+              "description": "Study of Progress Review"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Capstone Project I concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "DS802",
+          "course_name": "Capstone Project II",
+          "category": "Capstone",
+          "credits": 3,
+          "prerequisites": [
+            "DS801"
+          ],
+          "description": "Major industry project - Phase 2",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Advanced Modeling",
+              "description": "Study of Advanced Modeling"
+            },
+            {
+              "week": 2,
+              "title": "Optimization",
+              "description": "Study of Optimization"
+            },
+            {
+              "week": 3,
+              "title": "Deployment",
+              "description": "Study of Deployment"
+            },
+            {
+              "week": 4,
+              "title": "Documentation",
+              "description": "Study of Documentation"
+            },
+            {
+              "week": 5,
+              "title": "Presentation",
+              "description": "Study of Presentation"
+            },
+            {
+              "week": 6,
+              "title": "Final Submission",
+              "description": "Study of Final Submission"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Capstone Project II concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ]
+    },
+    "recommended_skills": [
+      "Python",
+      "SQL",
+      "Tableau",
+      "Statistics",
+      "Machine Learning"
+    ],
+    "industry_alignment_notes": "Aligned with data science roles at consulting firms, tech companies, and financial institutions.",
+    "optimization_tips": [
+      "Add SQL and database management courses",
+      "Include capstone with real industry data"
+    ]
+  },
+  "MBA_Marketing": {
+    "program_title": "Master of Business Administration in Marketing",
+    "program_type": "MBA",
+    "domain": "Marketing",
+    "academic_level": "Graduate",
+    "total_semesters": 4,
+    "program_rationale": "This MBA in Marketing develops strategic marketing leaders capable of driving brand growth in the digital age. The curriculum blends traditional marketing principles with cutting-edge digital strategies, analytics, and consumer behavior insights.",
+    "target_careers": [
+      "Marketing Manager",
+      "Brand Manager",
+      "Digital Marketing Director",
+      "CMO",
+      "Product Marketing Manager"
+    ],
+    "accreditation_aligned": "Aligned with AACSB/AMBA Standards",
+    "courses_by_semester": {
+      "Semester 1": [
+        {
+          "course_code": "MKT501",
+          "course_name": "Marketing Management",
+          "category": "Core Requirement",
+          "description": "Comprehensive overview of marketing strategy, segmentation, targeting, positioning, and the marketing mix.",
+          "credits": 3,
+          "prerequisites": [],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Marketing Fundamentals",
+              "description": "Marketing concepts and evolution",
+              "resources": [
+                "Kotler Marketing Management"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "Market Segmentation",
+              "description": "Demographic, psychographic, and behavioral segmentation",
+              "resources": [
+                "Segmentation Case Studies"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "Targeting and Positioning",
+              "description": "STP framework and positioning strategies",
+              "resources": [
+                "Positioning: The Battle for Your Mind"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Product Strategy",
+              "description": "Product lifecycle and portfolio management",
+              "resources": [
+                "BCG Matrix Analysis"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "Pricing Strategies",
+              "description": "Value-based and competitive pricing",
+              "resources": [
+                "Pricing Strategy Guide"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "Distribution and Promotion",
+              "description": "Channel strategy and IMC",
+              "resources": [
+                "IMC Framework"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Develop comprehensive marketing strategies",
+              "bloom_level": "Create",
+              "code": "AACSB-1"
+            },
+            {
+              "outcome": "Evaluate market opportunities using frameworks",
+              "bloom_level": "Evaluate",
+              "code": "AACSB-2"
+            }
+          ]
+        },
+        {
+          "course_code": "MKT502",
+          "course_name": "Consumer Behavior",
+          "category": "Core Requirement",
+          "description": "Understanding consumer decision-making processes, psychological factors, and cultural influences on buying behavior.",
+          "credits": 3,
+          "prerequisites": [],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Consumer Decision Process",
+              "description": "Need recognition to post-purchase behavior",
+              "resources": [
+                "Consumer Behavior Textbook"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "Perception and Learning",
+              "description": "How consumers process information",
+              "resources": [
+                "Cognitive Psychology for Marketing"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "Motivation and Personality",
+              "description": "Maslow hierarchy and brand personality",
+              "resources": [
+                "Brand Personality Framework"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Attitudes and Persuasion",
+              "description": "Attitude formation and change",
+              "resources": [
+                "Influence by Cialdini"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "Culture and Subcultures",
+              "description": "Cultural influences on consumption",
+              "resources": [
+                "Cross-Cultural Marketing"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "Digital Consumer Behavior",
+              "description": "Online decision-making and social influence",
+              "resources": [
+                "Digital Consumer Research"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Analyze consumer behavior patterns",
+              "bloom_level": "Analyze",
+              "code": "AACSB-3"
+            },
+            {
+              "outcome": "Apply behavioral insights to marketing strategy",
+              "bloom_level": "Apply",
+              "code": "AACSB-4"
+            }
+          ]
+        },
+        {
+          "course_code": "MKT503",
+          "course_name": "Digital Marketing Strategy",
+          "category": "Specialization",
+          "description": "Comprehensive digital marketing covering SEO, SEM, social media, content marketing, and marketing automation.",
+          "credits": 3,
+          "prerequisites": [],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Digital Marketing Landscape",
+              "description": "Channels, trends, and strategies",
+              "resources": [
+                "Digital Marketing Institute"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "SEO Fundamentals",
+              "description": "On-page, off-page, and technical SEO",
+              "resources": [
+                "Moz SEO Guide"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "Paid Advertising",
+              "description": "Google Ads and social media advertising",
+              "resources": [
+                "Google Ads Certification"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Social Media Marketing",
+              "description": "Platform strategies and community building",
+              "resources": [
+                "Social Media Examiner"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "Content Marketing",
+              "description": "Content strategy and storytelling",
+              "resources": [
+                "Content Marketing Institute"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "Analytics and Optimization",
+              "description": "Google Analytics and A/B testing",
+              "resources": [
+                "Google Analytics Academy"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Design integrated digital marketing campaigns",
+              "bloom_level": "Create",
+              "code": "AACSB-5"
+            },
+            {
+              "outcome": "Evaluate campaign performance using analytics",
+              "bloom_level": "Evaluate",
+              "code": "AACSB-6"
+            }
+          ]
+        }
+      ],
+      "Semester 2": [
+        {
+          "course_code": "MKT601",
+          "course_name": "Brand Management",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "MKT501"
+          ],
+          "description": "Building and managing brands",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Brand Equity",
+              "description": "Study of Brand Equity"
+            },
+            {
+              "week": 2,
+              "title": "Brand Positioning",
+              "description": "Study of Brand Positioning"
+            },
+            {
+              "week": 3,
+              "title": "Brand Architecture",
+              "description": "Study of Brand Architecture"
+            },
+            {
+              "week": 4,
+              "title": "Brand Extensions",
+              "description": "Study of Brand Extensions"
+            },
+            {
+              "week": 5,
+              "title": "Brand Valuation",
+              "description": "Study of Brand Valuation"
+            },
+            {
+              "week": 6,
+              "title": "Brand Audit",
+              "description": "Study of Brand Audit"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Brand Management concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "MKT602",
+          "course_name": "Marketing Analytics",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "MKT503"
+          ],
+          "description": "Data-driven marketing",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Marketing Metrics",
+              "description": "Study of Marketing Metrics"
+            },
+            {
+              "week": 2,
+              "title": "Customer Analytics",
+              "description": "Study of Customer Analytics"
+            },
+            {
+              "week": 3,
+              "title": "Attribution Modeling",
+              "description": "Study of Attribution Modeling"
+            },
+            {
+              "week": 4,
+              "title": "Marketing Mix Modeling",
+              "description": "Study of Marketing Mix Modeling"
+            },
+            {
+              "week": 5,
+              "title": "CLV Analysis",
+              "description": "Study of CLV Analysis"
+            },
+            {
+              "week": 6,
+              "title": "Predictive Marketing",
+              "description": "Study of Predictive Marketing"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Marketing Analytics concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "MKT603",
+          "course_name": "Sales Management",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "MKT501"
+          ],
+          "description": "Managing sales operations",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Sales Strategy",
+              "description": "Study of Sales Strategy"
+            },
+            {
+              "week": 2,
+              "title": "Territory Management",
+              "description": "Study of Territory Management"
+            },
+            {
+              "week": 3,
+              "title": "Sales Forecasting",
+              "description": "Study of Sales Forecasting"
+            },
+            {
+              "week": 4,
+              "title": "CRM Systems",
+              "description": "Study of CRM Systems"
+            },
+            {
+              "week": 5,
+              "title": "Sales Training",
+              "description": "Study of Sales Training"
+            },
+            {
+              "week": 6,
+              "title": "Performance Management",
+              "description": "Study of Performance Management"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Sales Management concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ],
+      "Semester 3": [
+        {
+          "course_code": "MKT701",
+          "course_name": "Global Marketing",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "MKT501"
+          ],
+          "description": "International marketing strategies",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Market Entry Modes",
+              "description": "Study of Market Entry Modes"
+            },
+            {
+              "week": 2,
+              "title": "Cultural Adaptation",
+              "description": "Study of Cultural Adaptation"
+            },
+            {
+              "week": 3,
+              "title": "Global Branding",
+              "description": "Study of Global Branding"
+            },
+            {
+              "week": 4,
+              "title": "Pricing Strategies",
+              "description": "Study of Pricing Strategies"
+            },
+            {
+              "week": 5,
+              "title": "Distribution Networks",
+              "description": "Study of Distribution Networks"
+            },
+            {
+              "week": 6,
+              "title": "Trade Barriers",
+              "description": "Study of Trade Barriers"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Global Marketing concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "MKT702",
+          "course_name": "Marketing Technology",
+          "category": "Elective",
+          "credits": 3,
+          "prerequisites": [
+            "MKT503"
+          ],
+          "description": "MarTech stack management",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Marketing Automation",
+              "description": "Study of Marketing Automation"
+            },
+            {
+              "week": 2,
+              "title": "CRM Platforms",
+              "description": "Study of CRM Platforms"
+            },
+            {
+              "week": 3,
+              "title": "CDP Systems",
+              "description": "Study of CDP Systems"
+            },
+            {
+              "week": 4,
+              "title": "Ad Tech",
+              "description": "Study of Ad Tech"
+            },
+            {
+              "week": 5,
+              "title": "Personalization Engines",
+              "description": "Study of Personalization Engines"
+            },
+            {
+              "week": 6,
+              "title": "MarTech Integration",
+              "description": "Study of MarTech Integration"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Marketing Technology concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "MKT703",
+          "course_name": "B2B Marketing",
+          "category": "Elective",
+          "credits": 3,
+          "prerequisites": [
+            "MKT501"
+          ],
+          "description": "Business-to-business marketing",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "B2B Buying Process",
+              "description": "Study of B2B Buying Process"
+            },
+            {
+              "week": 2,
+              "title": "Account-Based Marketing",
+              "description": "Study of Account-Based Marketing"
+            },
+            {
+              "week": 3,
+              "title": "Lead Generation",
+              "description": "Study of Lead Generation"
+            },
+            {
+              "week": 4,
+              "title": "Content Marketing",
+              "description": "Study of Content Marketing"
+            },
+            {
+              "week": 5,
+              "title": "Trade Shows",
+              "description": "Study of Trade Shows"
+            },
+            {
+              "week": 6,
+              "title": "Partner Marketing",
+              "description": "Study of Partner Marketing"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply B2B Marketing concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ],
+      "Semester 4": [
+        {
+          "course_code": "MKT801",
+          "course_name": "Marketing Strategy Capstone",
+          "category": "Capstone",
+          "credits": 3,
+          "prerequisites": [
+            "MKT601"
+          ],
+          "description": "Integrated marketing capstone",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Strategic Analysis",
+              "description": "Study of Strategic Analysis"
+            },
+            {
+              "week": 2,
+              "title": "Market Research",
+              "description": "Study of Market Research"
+            },
+            {
+              "week": 3,
+              "title": "Strategy Development",
+              "description": "Study of Strategy Development"
+            },
+            {
+              "week": 4,
+              "title": "Implementation Plan",
+              "description": "Study of Implementation Plan"
+            },
+            {
+              "week": 5,
+              "title": "Budget Allocation",
+              "description": "Study of Budget Allocation"
+            },
+            {
+              "week": 6,
+              "title": "Final Presentation",
+              "description": "Study of Final Presentation"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Marketing Strategy Capstone concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "MKT802",
+          "course_name": "Social Media Marketing",
+          "category": "Elective",
+          "credits": 3,
+          "prerequisites": [
+            "MKT503"
+          ],
+          "description": "Social media strategies",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Platform Strategy",
+              "description": "Study of Platform Strategy"
+            },
+            {
+              "week": 2,
+              "title": "Community Management",
+              "description": "Study of Community Management"
+            },
+            {
+              "week": 3,
+              "title": "Influencer Marketing",
+              "description": "Study of Influencer Marketing"
+            },
+            {
+              "week": 4,
+              "title": "Social Commerce",
+              "description": "Study of Social Commerce"
+            },
+            {
+              "week": 5,
+              "title": "Crisis Management",
+              "description": "Study of Crisis Management"
+            },
+            {
+              "week": 6,
+              "title": "Measurement",
+              "description": "Study of Measurement"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Social Media Marketing concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "MKT803",
+          "course_name": "Retail Marketing",
+          "category": "Elective",
+          "credits": 3,
+          "prerequisites": [
+            "MKT501"
+          ],
+          "description": "Omnichannel retail",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Retail Strategy",
+              "description": "Study of Retail Strategy"
+            },
+            {
+              "week": 2,
+              "title": "Store Design",
+              "description": "Study of Store Design"
+            },
+            {
+              "week": 3,
+              "title": "Category Management",
+              "description": "Study of Category Management"
+            },
+            {
+              "week": 4,
+              "title": "E-commerce",
+              "description": "Study of E-commerce"
+            },
+            {
+              "week": 5,
+              "title": "Omnichannel Integration",
+              "description": "Study of Omnichannel Integration"
+            },
+            {
+              "week": 6,
+              "title": "Customer Experience",
+              "description": "Study of Customer Experience"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Retail Marketing concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ]
+    },
+    "recommended_skills": [
+      "Digital Marketing",
+      "Analytics",
+      "Brand Management",
+      "Strategic Planning",
+      "Communication"
+    ],
+    "industry_alignment_notes": "Aligned with marketing leadership roles at Fortune 500 companies and digital-first startups.",
+    "optimization_tips": [
+      "Add marketing technology (MarTech) electives",
+      "Include brand management capstone project"
+    ]
+  },
+  "MBA_Finance": {
+    "program_title": "Master of Business Administration in Finance",
+    "program_type": "MBA",
+    "domain": "Finance",
+    "academic_level": "Graduate",
+    "total_semesters": 4,
+    "program_rationale": "This MBA in Finance prepares future financial leaders with expertise in corporate finance, investment analysis, and risk management. The curriculum combines theoretical rigor with practical applications in financial modeling and strategic decision-making.",
+    "target_careers": [
+      "Financial Analyst",
+      "Investment Banker",
+      "CFO",
+      "Portfolio Manager",
+      "Risk Manager"
+    ],
+    "accreditation_aligned": "Aligned with AACSB/CFA Standards",
+    "courses_by_semester": {
+      "Semester 1": [
+        {
+          "course_code": "FIN501",
+          "course_name": "Corporate Finance",
+          "category": "Core Requirement",
+          "description": "Fundamental concepts of corporate finance including capital budgeting, cost of capital, and financing decisions.",
+          "credits": 3,
+          "prerequisites": [],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Time Value of Money",
+              "description": "Present and future value calculations",
+              "resources": [
+                "Corporate Finance Textbook"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "Capital Budgeting",
+              "description": "NPV, IRR, and payback period",
+              "resources": [
+                "Capital Budgeting Cases"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "Cost of Capital",
+              "description": "WACC and capital structure",
+              "resources": [
+                "Damodaran on Valuation"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Capital Structure",
+              "description": "Debt vs equity financing decisions",
+              "resources": [
+                "M&M Theorem Explained"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "Dividend Policy",
+              "description": "Payout decisions and shareholder value",
+              "resources": [
+                "Dividend Policy Research"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "Working Capital Management",
+              "description": "Cash, inventory, and receivables management",
+              "resources": [
+                "Working Capital Guide"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Evaluate investment decisions using financial metrics",
+              "bloom_level": "Evaluate",
+              "code": "AACSB-F1"
+            },
+            {
+              "outcome": "Analyze capital structure optimization",
+              "bloom_level": "Analyze",
+              "code": "AACSB-F2"
+            }
+          ]
+        },
+        {
+          "course_code": "FIN502",
+          "course_name": "Financial Markets and Institutions",
+          "category": "Core Requirement",
+          "description": "Understanding the structure and function of financial markets, banking systems, and regulatory frameworks.",
+          "credits": 3,
+          "prerequisites": [],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Financial System Overview",
+              "description": "Markets, institutions, and intermediaries",
+              "resources": [
+                "Mishkin Financial Markets"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "Money Markets",
+              "description": "T-bills, commercial paper, and repos",
+              "resources": [
+                "Money Market Instruments"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "Bond Markets",
+              "description": "Bond pricing, yields, and duration",
+              "resources": [
+                "Fixed Income Analysis"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Stock Markets",
+              "description": "Equity valuation and market efficiency",
+              "resources": [
+                "Equity Markets Research"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "Banking and Regulation",
+              "description": "Commercial banking and Basel norms",
+              "resources": [
+                "Banking Regulation Guide"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "Central Banking",
+              "description": "Monetary policy and interest rates",
+              "resources": [
+                "Central Banking Overview"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Analyze financial market dynamics",
+              "bloom_level": "Analyze",
+              "code": "AACSB-F3"
+            },
+            {
+              "outcome": "Evaluate regulatory impact on financial institutions",
+              "bloom_level": "Evaluate",
+              "code": "AACSB-F4"
+            }
+          ]
+        },
+        {
+          "course_code": "FIN503",
+          "course_name": "Investment Analysis",
+          "category": "Specialization",
+          "description": "Portfolio theory, asset valuation, and investment strategies for equity and fixed income securities.",
+          "credits": 3,
+          "prerequisites": [],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Modern Portfolio Theory",
+              "description": "Diversification and efficient frontier",
+              "resources": [
+                "Markowitz Portfolio Selection"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "CAPM and Factor Models",
+              "description": "Systematic risk and beta",
+              "resources": [
+                "CAPM Research Papers"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "Equity Valuation",
+              "description": "DCF, multiples, and comparable analysis",
+              "resources": [
+                "Equity Valuation Models"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Fixed Income Analysis",
+              "description": "Bond valuation and yield curves",
+              "resources": [
+                "Fixed Income Securities"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "Derivatives",
+              "description": "Options, futures, and hedging strategies",
+              "resources": [
+                "Hull Options and Derivatives"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "Portfolio Management",
+              "description": "Active vs passive strategies",
+              "resources": [
+                "Portfolio Management Guide"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Construct optimized investment portfolios",
+              "bloom_level": "Create",
+              "code": "AACSB-F5"
+            },
+            {
+              "outcome": "Evaluate securities using valuation models",
+              "bloom_level": "Evaluate",
+              "code": "AACSB-F6"
+            }
+          ]
+        }
+      ],
+      "Semester 2": [
+        {
+          "course_code": "FIN601",
+          "course_name": "Financial Modeling",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "FIN501"
+          ],
+          "description": "Building financial models",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Excel Mastery",
+              "description": "Study of Excel Mastery"
+            },
+            {
+              "week": 2,
+              "title": "Three-Statement Models",
+              "description": "Study of Three-Statement Models"
+            },
+            {
+              "week": 3,
+              "title": "DCF Modeling",
+              "description": "Study of DCF Modeling"
+            },
+            {
+              "week": 4,
+              "title": "LBO Models",
+              "description": "Study of LBO Models"
+            },
+            {
+              "week": 5,
+              "title": "M&A Models",
+              "description": "Study of M&A Models"
+            },
+            {
+              "week": 6,
+              "title": "Sensitivity Analysis",
+              "description": "Study of Sensitivity Analysis"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Financial Modeling concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "FIN602",
+          "course_name": "Risk Management",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "FIN502"
+          ],
+          "description": "Enterprise risk management",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Risk Identification",
+              "description": "Study of Risk Identification"
+            },
+            {
+              "week": 2,
+              "title": "VaR and CVaR",
+              "description": "Study of VaR and CVaR"
+            },
+            {
+              "week": 3,
+              "title": "Credit Risk",
+              "description": "Study of Credit Risk"
+            },
+            {
+              "week": 4,
+              "title": "Market Risk",
+              "description": "Study of Market Risk"
+            },
+            {
+              "week": 5,
+              "title": "Operational Risk",
+              "description": "Study of Operational Risk"
+            },
+            {
+              "week": 6,
+              "title": "Risk Reporting",
+              "description": "Study of Risk Reporting"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Risk Management concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "FIN603",
+          "course_name": "Private Equity & VC",
+          "category": "Elective",
+          "credits": 3,
+          "prerequisites": [
+            "FIN503"
+          ],
+          "description": "Alternative investments",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "PE Industry",
+              "description": "Study of PE Industry"
+            },
+            {
+              "week": 2,
+              "title": "Deal Sourcing",
+              "description": "Study of Deal Sourcing"
+            },
+            {
+              "week": 3,
+              "title": "Due Diligence",
+              "description": "Study of Due Diligence"
+            },
+            {
+              "week": 4,
+              "title": "Valuation Methods",
+              "description": "Study of Valuation Methods"
+            },
+            {
+              "week": 5,
+              "title": "Portfolio Management",
+              "description": "Study of Portfolio Management"
+            },
+            {
+              "week": 6,
+              "title": "Exit Strategies",
+              "description": "Study of Exit Strategies"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Private Equity & VC concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ],
+      "Semester 3": [
+        {
+          "course_code": "FIN701",
+          "course_name": "Mergers & Acquisitions",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "FIN601"
+          ],
+          "description": "M&A strategy and execution",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "M&A Landscape",
+              "description": "Study of M&A Landscape"
+            },
+            {
+              "week": 2,
+              "title": "Target Identification",
+              "description": "Study of Target Identification"
+            },
+            {
+              "week": 3,
+              "title": "Valuation",
+              "description": "Study of Valuation"
+            },
+            {
+              "week": 4,
+              "title": "Deal Structuring",
+              "description": "Study of Deal Structuring"
+            },
+            {
+              "week": 5,
+              "title": "Negotiation",
+              "description": "Study of Negotiation"
+            },
+            {
+              "week": 6,
+              "title": "Integration",
+              "description": "Study of Integration"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Mergers & Acquisitions concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "FIN702",
+          "course_name": "International Finance",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "FIN502"
+          ],
+          "description": "Global financial markets",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "FX Markets",
+              "description": "Study of FX Markets"
+            },
+            {
+              "week": 2,
+              "title": "Currency Risk",
+              "description": "Study of Currency Risk"
+            },
+            {
+              "week": 3,
+              "title": "International Investing",
+              "description": "Study of International Investing"
+            },
+            {
+              "week": 4,
+              "title": "Cross-Border M&A",
+              "description": "Study of Cross-Border M&A"
+            },
+            {
+              "week": 5,
+              "title": "Transfer Pricing",
+              "description": "Study of Transfer Pricing"
+            },
+            {
+              "week": 6,
+              "title": "Sovereign Risk",
+              "description": "Study of Sovereign Risk"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply International Finance concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "FIN703",
+          "course_name": "FinTech",
+          "category": "Elective",
+          "credits": 3,
+          "prerequisites": [
+            "FIN502"
+          ],
+          "description": "Technology in finance",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Digital Payments",
+              "description": "Study of Digital Payments"
+            },
+            {
+              "week": 2,
+              "title": "Blockchain",
+              "description": "Study of Blockchain"
+            },
+            {
+              "week": 3,
+              "title": "Robo-Advisors",
+              "description": "Study of Robo-Advisors"
+            },
+            {
+              "week": 4,
+              "title": "InsurTech",
+              "description": "Study of InsurTech"
+            },
+            {
+              "week": 5,
+              "title": "RegTech",
+              "description": "Study of RegTech"
+            },
+            {
+              "week": 6,
+              "title": "Open Banking",
+              "description": "Study of Open Banking"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply FinTech concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ],
+      "Semester 4": [
+        {
+          "course_code": "FIN801",
+          "course_name": "Finance Strategy Capstone",
+          "category": "Capstone",
+          "credits": 3,
+          "prerequisites": [
+            "FIN701"
+          ],
+          "description": "Integrated finance capstone",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Case Analysis",
+              "description": "Study of Case Analysis"
+            },
+            {
+              "week": 2,
+              "title": "Valuation Project",
+              "description": "Study of Valuation Project"
+            },
+            {
+              "week": 3,
+              "title": "Strategy Formulation",
+              "description": "Study of Strategy Formulation"
+            },
+            {
+              "week": 4,
+              "title": "Implementation",
+              "description": "Study of Implementation"
+            },
+            {
+              "week": 5,
+              "title": "Risk Assessment",
+              "description": "Study of Risk Assessment"
+            },
+            {
+              "week": 6,
+              "title": "Final Defense",
+              "description": "Study of Final Defense"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Finance Strategy Capstone concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "FIN802",
+          "course_name": "Wealth Management",
+          "category": "Elective",
+          "credits": 3,
+          "prerequisites": [
+            "FIN503"
+          ],
+          "description": "Personal financial planning",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Financial Planning",
+              "description": "Study of Financial Planning"
+            },
+            {
+              "week": 2,
+              "title": "Asset Allocation",
+              "description": "Study of Asset Allocation"
+            },
+            {
+              "week": 3,
+              "title": "Tax Planning",
+              "description": "Study of Tax Planning"
+            },
+            {
+              "week": 4,
+              "title": "Estate Planning",
+              "description": "Study of Estate Planning"
+            },
+            {
+              "week": 5,
+              "title": "Behavioral Finance",
+              "description": "Study of Behavioral Finance"
+            },
+            {
+              "week": 6,
+              "title": "Client Management",
+              "description": "Study of Client Management"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Wealth Management concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "FIN803",
+          "course_name": "Quantitative Finance",
+          "category": "Elective",
+          "credits": 3,
+          "prerequisites": [
+            "FIN503"
+          ],
+          "description": "Quantitative trading strategies",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Quantitative Methods",
+              "description": "Study of Quantitative Methods"
+            },
+            {
+              "week": 2,
+              "title": "Algorithmic Trading",
+              "description": "Study of Algorithmic Trading"
+            },
+            {
+              "week": 3,
+              "title": "Factor Investing",
+              "description": "Study of Factor Investing"
+            },
+            {
+              "week": 4,
+              "title": "Options Pricing",
+              "description": "Study of Options Pricing"
+            },
+            {
+              "week": 5,
+              "title": "Backtesting",
+              "description": "Study of Backtesting"
+            },
+            {
+              "week": 6,
+              "title": "Execution",
+              "description": "Study of Execution"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Quantitative Finance concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ]
+    },
+    "recommended_skills": [
+      "Financial Modeling",
+      "Excel",
+      "Valuation",
+      "Risk Analysis",
+      "CFA Preparation"
+    ],
+    "industry_alignment_notes": "Aligned with finance roles at investment banks, asset management firms, and corporate finance departments.",
+    "optimization_tips": [
+      "Add FinTech and blockchain electives",
+      "Include CFA exam preparation modules"
+    ]
+  },
+  "B.Tech_Cybersecurity": {
+    "program_title": "Bachelor of Technology in Cybersecurity",
+    "program_type": "B.Tech",
+    "domain": "Cybersecurity",
+    "academic_level": "Undergraduate",
+    "total_semesters": 8,
+    "program_rationale": "This B.Tech in Cybersecurity addresses the critical shortage of security professionals in the digital economy. The curriculum covers network security, ethical hacking, cryptography, and incident response, preparing graduates to protect organizations from evolving cyber threats.",
+    "target_careers": [
+      "Security Analyst",
+      "Penetration Tester",
+      "Security Engineer",
+      "CISO",
+      "Incident Response Specialist"
+    ],
+    "accreditation_aligned": "Aligned with NAAC/ABET Framework",
+    "courses_by_semester": {
+      "Semester 1": [
+        {
+          "course_code": "CYB101",
+          "course_name": "Foundations of Cybersecurity",
+          "category": "Foundational",
+          "description": "Introduction to cybersecurity concepts, threat landscape, and security frameworks like NIST and ISO 27001.",
+          "credits": 4,
+          "prerequisites": [],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Cybersecurity Fundamentals",
+              "description": "CIA triad and security principles",
+              "resources": [
+                "NIST Cybersecurity Framework"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "Threat Landscape",
+              "description": "Types of attacks and threat actors",
+              "resources": [
+                "MITRE ATT&CK Framework"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "Security Frameworks",
+              "description": "NIST, ISO 27001, and compliance",
+              "resources": [
+                "ISO 27001 Guide"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Risk Management",
+              "description": "Risk assessment and mitigation",
+              "resources": [
+                "Risk Management Handbook"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "Security Controls",
+              "description": "Technical, administrative, and physical controls",
+              "resources": [
+                "CIS Controls"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "Security Policies",
+              "description": "Policy development and governance",
+              "resources": [
+                "Security Policy Templates"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply security frameworks to organizational contexts",
+              "bloom_level": "Apply",
+              "code": "ABET-CYB1"
+            },
+            {
+              "outcome": "Evaluate security risks and controls",
+              "bloom_level": "Evaluate",
+              "code": "ABET-CYB2"
+            }
+          ]
+        },
+        {
+          "course_code": "CYB102",
+          "course_name": "Network Security Fundamentals",
+          "category": "Core Requirement",
+          "description": "Network protocols, firewall configuration, intrusion detection, and secure network design principles.",
+          "credits": 4,
+          "prerequisites": [],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Networking Basics",
+              "description": "OSI model and TCP/IP stack",
+              "resources": [
+                "CompTIA Network+ Guide"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "Network Protocols",
+              "description": "HTTP, DNS, DHCP, and security implications",
+              "resources": [
+                "Protocol Analysis"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "Firewalls and ACLs",
+              "description": "Firewall types and rule configuration",
+              "resources": [
+                "Firewall Best Practices"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Intrusion Detection",
+              "description": "IDS/IPS systems and SIEM",
+              "resources": [
+                "Snort IDS Tutorial"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "VPNs and Secure Communication",
+              "description": "VPN protocols and implementation",
+              "resources": [
+                "VPN Security Guide"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "Wireless Security",
+              "description": "Wi-Fi security and WPA3",
+              "resources": [
+                "Wireless Security Standards"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Design secure network architectures",
+              "bloom_level": "Create",
+              "code": "ABET-CYB3"
+            },
+            {
+              "outcome": "Analyze network traffic for security threats",
+              "bloom_level": "Analyze",
+              "code": "ABET-CYB4"
+            }
+          ]
+        },
+        {
+          "course_code": "CYB103",
+          "course_name": "Cryptography Basics",
+          "category": "Foundational",
+          "description": "Mathematical foundations of cryptography, symmetric and asymmetric encryption, hash functions, and digital signatures.",
+          "credits": 4,
+          "prerequisites": [],
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Cryptography History",
+              "description": "Classical ciphers and modern cryptography",
+              "resources": [
+                "Cryptography History"
+              ]
+            },
+            {
+              "week": 2,
+              "title": "Symmetric Encryption",
+              "description": "AES, DES, and block cipher modes",
+              "resources": [
+                "AES Explained"
+              ]
+            },
+            {
+              "week": 3,
+              "title": "Asymmetric Encryption",
+              "description": "RSA, ECC, and key exchange",
+              "resources": [
+                "Public Key Cryptography"
+              ]
+            },
+            {
+              "week": 4,
+              "title": "Hash Functions",
+              "description": "SHA-256, MD5, and integrity verification",
+              "resources": [
+                "Hash Function Security"
+              ]
+            },
+            {
+              "week": 5,
+              "title": "Digital Signatures",
+              "description": "Authentication and non-repudiation",
+              "resources": [
+                "Digital Signature Standards"
+              ]
+            },
+            {
+              "week": 6,
+              "title": "PKI and Certificates",
+              "description": "Certificate authorities and TLS",
+              "resources": [
+                "PKI Implementation Guide"
+              ]
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply cryptographic techniques for data protection",
+              "bloom_level": "Apply",
+              "code": "ABET-CYB5"
+            },
+            {
+              "outcome": "Evaluate cryptographic algorithm suitability",
+              "bloom_level": "Evaluate",
+              "code": "ABET-CYB6"
+            }
+          ]
+        }
+      ],
+      "Semester 2": [
+        {
+          "course_code": "CYB201",
+          "course_name": "Ethical Hacking",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "CYB102"
+          ],
+          "description": "Penetration testing fundamentals",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Reconnaissance",
+              "description": "Study of Reconnaissance"
+            },
+            {
+              "week": 2,
+              "title": "Scanning",
+              "description": "Study of Scanning"
+            },
+            {
+              "week": 3,
+              "title": "Exploitation",
+              "description": "Study of Exploitation"
+            },
+            {
+              "week": 4,
+              "title": "Post-Exploitation",
+              "description": "Study of Post-Exploitation"
+            },
+            {
+              "week": 5,
+              "title": "Reporting",
+              "description": "Study of Reporting"
+            },
+            {
+              "week": 6,
+              "title": "Legal Considerations",
+              "description": "Study of Legal Considerations"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Ethical Hacking concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "CYB202",
+          "course_name": "Operating System Security",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "CYB101"
+          ],
+          "description": "Securing OS platforms",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Linux Security",
+              "description": "Study of Linux Security"
+            },
+            {
+              "week": 2,
+              "title": "Windows Security",
+              "description": "Study of Windows Security"
+            },
+            {
+              "week": 3,
+              "title": "Hardening",
+              "description": "Study of Hardening"
+            },
+            {
+              "week": 4,
+              "title": "Patch Management",
+              "description": "Study of Patch Management"
+            },
+            {
+              "week": 5,
+              "title": "Access Controls",
+              "description": "Study of Access Controls"
+            },
+            {
+              "week": 6,
+              "title": "Logging",
+              "description": "Study of Logging"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Operating System Security concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "CYB203",
+          "course_name": "Programming for Security",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [],
+          "description": "Security-focused programming",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Python for Security",
+              "description": "Study of Python for Security"
+            },
+            {
+              "week": 2,
+              "title": "Scripting",
+              "description": "Study of Scripting"
+            },
+            {
+              "week": 3,
+              "title": "Automation",
+              "description": "Study of Automation"
+            },
+            {
+              "week": 4,
+              "title": "Tool Development",
+              "description": "Study of Tool Development"
+            },
+            {
+              "week": 5,
+              "title": "Secure Coding",
+              "description": "Study of Secure Coding"
+            },
+            {
+              "week": 6,
+              "title": "Code Review",
+              "description": "Study of Code Review"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Programming for Security concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ],
+      "Semester 3": [
+        {
+          "course_code": "CYB301",
+          "course_name": "Web Application Security",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "CYB201"
+          ],
+          "description": "Securing web applications",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "OWASP Top 10",
+              "description": "Study of OWASP Top 10"
+            },
+            {
+              "week": 2,
+              "title": "SQL Injection",
+              "description": "Study of SQL Injection"
+            },
+            {
+              "week": 3,
+              "title": "XSS",
+              "description": "Study of XSS"
+            },
+            {
+              "week": 4,
+              "title": "CSRF",
+              "description": "Study of CSRF"
+            },
+            {
+              "week": 5,
+              "title": "Authentication Flaws",
+              "description": "Study of Authentication Flaws"
+            },
+            {
+              "week": 6,
+              "title": "Secure Development",
+              "description": "Study of Secure Development"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Web Application Security concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "CYB302",
+          "course_name": "Cloud Security",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "CYB102"
+          ],
+          "description": "Securing cloud environments",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Cloud Architecture",
+              "description": "Study of Cloud Architecture"
+            },
+            {
+              "week": 2,
+              "title": "AWS Security",
+              "description": "Study of AWS Security"
+            },
+            {
+              "week": 3,
+              "title": "Azure Security",
+              "description": "Study of Azure Security"
+            },
+            {
+              "week": 4,
+              "title": "Container Security",
+              "description": "Study of Container Security"
+            },
+            {
+              "week": 5,
+              "title": "Serverless Security",
+              "description": "Study of Serverless Security"
+            },
+            {
+              "week": 6,
+              "title": "Cloud Compliance",
+              "description": "Study of Cloud Compliance"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Cloud Security concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "CYB303",
+          "course_name": "Malware Analysis",
+          "category": "Specialization",
+          "credits": 3,
+          "prerequisites": [
+            "CYB202"
+          ],
+          "description": "Analyzing malicious software",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Malware Types",
+              "description": "Study of Malware Types"
+            },
+            {
+              "week": 2,
+              "title": "Static Analysis",
+              "description": "Study of Static Analysis"
+            },
+            {
+              "week": 3,
+              "title": "Dynamic Analysis",
+              "description": "Study of Dynamic Analysis"
+            },
+            {
+              "week": 4,
+              "title": "Reverse Engineering",
+              "description": "Study of Reverse Engineering"
+            },
+            {
+              "week": 5,
+              "title": "Sandboxing",
+              "description": "Study of Sandboxing"
+            },
+            {
+              "week": 6,
+              "title": "Threat Intel",
+              "description": "Study of Threat Intel"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Malware Analysis concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ],
+      "Semester 4": [
+        {
+          "course_code": "CYB401",
+          "course_name": "Digital Forensics",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "CYB303"
+          ],
+          "description": "Investigating cyber incidents",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Forensic Methodology",
+              "description": "Study of Forensic Methodology"
+            },
+            {
+              "week": 2,
+              "title": "Evidence Collection",
+              "description": "Study of Evidence Collection"
+            },
+            {
+              "week": 3,
+              "title": "Disk Forensics",
+              "description": "Study of Disk Forensics"
+            },
+            {
+              "week": 4,
+              "title": "Memory Forensics",
+              "description": "Study of Memory Forensics"
+            },
+            {
+              "week": 5,
+              "title": "Network Forensics",
+              "description": "Study of Network Forensics"
+            },
+            {
+              "week": 6,
+              "title": "Reporting",
+              "description": "Study of Reporting"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Digital Forensics concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "CYB402",
+          "course_name": "Incident Response",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "CYB101"
+          ],
+          "description": "Handling security incidents",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "IR Frameworks",
+              "description": "Study of IR Frameworks"
+            },
+            {
+              "week": 2,
+              "title": "Detection",
+              "description": "Study of Detection"
+            },
+            {
+              "week": 3,
+              "title": "Containment",
+              "description": "Study of Containment"
+            },
+            {
+              "week": 4,
+              "title": "Eradication",
+              "description": "Study of Eradication"
+            },
+            {
+              "week": 5,
+              "title": "Recovery",
+              "description": "Study of Recovery"
+            },
+            {
+              "week": 6,
+              "title": "Lessons Learned",
+              "description": "Study of Lessons Learned"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Incident Response concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "CYB403",
+          "course_name": "Security Operations",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "CYB102"
+          ],
+          "description": "SOC operations and monitoring",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "SOC Architecture",
+              "description": "Study of SOC Architecture"
+            },
+            {
+              "week": 2,
+              "title": "SIEM",
+              "description": "Study of SIEM"
+            },
+            {
+              "week": 3,
+              "title": "Threat Hunting",
+              "description": "Study of Threat Hunting"
+            },
+            {
+              "week": 4,
+              "title": "Alert Triage",
+              "description": "Study of Alert Triage"
+            },
+            {
+              "week": 5,
+              "title": "Playbooks",
+              "description": "Study of Playbooks"
+            },
+            {
+              "week": 6,
+              "title": "Metrics",
+              "description": "Study of Metrics"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Security Operations concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ],
+      "Semester 5": [
+        {
+          "course_code": "CYB501",
+          "course_name": "Advanced Cryptography",
+          "category": "Specialization",
+          "credits": 3,
+          "prerequisites": [
+            "CYB103"
+          ],
+          "description": "Modern cryptographic techniques",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Elliptic Curves",
+              "description": "Study of Elliptic Curves"
+            },
+            {
+              "week": 2,
+              "title": "Zero Knowledge Proofs",
+              "description": "Study of Zero Knowledge Proofs"
+            },
+            {
+              "week": 3,
+              "title": "Homomorphic Encryption",
+              "description": "Study of Homomorphic Encryption"
+            },
+            {
+              "week": 4,
+              "title": "Post-Quantum Crypto",
+              "description": "Study of Post-Quantum Crypto"
+            },
+            {
+              "week": 5,
+              "title": "Blockchain",
+              "description": "Study of Blockchain"
+            },
+            {
+              "week": 6,
+              "title": "Crypto Protocols",
+              "description": "Study of Crypto Protocols"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Advanced Cryptography concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "CYB502",
+          "course_name": "Mobile Security",
+          "category": "Elective",
+          "credits": 3,
+          "prerequisites": [
+            "CYB201"
+          ],
+          "description": "Securing mobile platforms",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Android Security",
+              "description": "Study of Android Security"
+            },
+            {
+              "week": 2,
+              "title": "iOS Security",
+              "description": "Study of iOS Security"
+            },
+            {
+              "week": 3,
+              "title": "Mobile Threats",
+              "description": "Study of Mobile Threats"
+            },
+            {
+              "week": 4,
+              "title": "App Analysis",
+              "description": "Study of App Analysis"
+            },
+            {
+              "week": 5,
+              "title": "MDM",
+              "description": "Study of MDM"
+            },
+            {
+              "week": 6,
+              "title": "Mobile Forensics",
+              "description": "Study of Mobile Forensics"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Mobile Security concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "CYB503",
+          "course_name": "Governance & Compliance",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [],
+          "description": "Security governance frameworks",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "ISO 27001",
+              "description": "Study of ISO 27001"
+            },
+            {
+              "week": 2,
+              "title": "NIST Framework",
+              "description": "Study of NIST Framework"
+            },
+            {
+              "week": 3,
+              "title": "SOC 2",
+              "description": "Study of SOC 2"
+            },
+            {
+              "week": 4,
+              "title": "PCI DSS",
+              "description": "Study of PCI DSS"
+            },
+            {
+              "week": 5,
+              "title": "HIPAA",
+              "description": "Study of HIPAA"
+            },
+            {
+              "week": 6,
+              "title": "Audit Preparation",
+              "description": "Study of Audit Preparation"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Governance & Compliance concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ],
+      "Semester 6": [
+        {
+          "course_code": "CYB601",
+          "course_name": "IoT Security",
+          "category": "Elective",
+          "credits": 3,
+          "prerequisites": [
+            "CYB302"
+          ],
+          "description": "Securing Internet of Things",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "IoT Architecture",
+              "description": "Study of IoT Architecture"
+            },
+            {
+              "week": 2,
+              "title": "Device Security",
+              "description": "Study of Device Security"
+            },
+            {
+              "week": 3,
+              "title": "Protocol Security",
+              "description": "Study of Protocol Security"
+            },
+            {
+              "week": 4,
+              "title": "Firmware Analysis",
+              "description": "Study of Firmware Analysis"
+            },
+            {
+              "week": 5,
+              "title": "Industrial IoT",
+              "description": "Study of Industrial IoT"
+            },
+            {
+              "week": 6,
+              "title": "Smart Home Security",
+              "description": "Study of Smart Home Security"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply IoT Security concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "CYB602",
+          "course_name": "Red Team Operations",
+          "category": "Specialization",
+          "credits": 3,
+          "prerequisites": [
+            "CYB201"
+          ],
+          "description": "Advanced offensive security",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Red Team Planning",
+              "description": "Study of Red Team Planning"
+            },
+            {
+              "week": 2,
+              "title": "Initial Access",
+              "description": "Study of Initial Access"
+            },
+            {
+              "week": 3,
+              "title": "Persistence",
+              "description": "Study of Persistence"
+            },
+            {
+              "week": 4,
+              "title": "Privilege Escalation",
+              "description": "Study of Privilege Escalation"
+            },
+            {
+              "week": 5,
+              "title": "Lateral Movement",
+              "description": "Study of Lateral Movement"
+            },
+            {
+              "week": 6,
+              "title": "Exfiltration",
+              "description": "Study of Exfiltration"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Red Team Operations concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "CYB603",
+          "course_name": "Security Research",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [
+            "CYB303"
+          ],
+          "description": "Vulnerability research methods",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Bug Bounty",
+              "description": "Study of Bug Bounty"
+            },
+            {
+              "week": 2,
+              "title": "CVE Process",
+              "description": "Study of CVE Process"
+            },
+            {
+              "week": 3,
+              "title": "Responsible Disclosure",
+              "description": "Study of Responsible Disclosure"
+            },
+            {
+              "week": 4,
+              "title": "PoC Development",
+              "description": "Study of PoC Development"
+            },
+            {
+              "week": 5,
+              "title": "Security Advisories",
+              "description": "Study of Security Advisories"
+            },
+            {
+              "week": 6,
+              "title": "Research Ethics",
+              "description": "Study of Research Ethics"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Security Research concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ],
+      "Semester 7": [
+        {
+          "course_code": "CYB701",
+          "course_name": "Industry Internship",
+          "category": "Practical",
+          "credits": 3,
+          "prerequisites": [],
+          "description": "Security internship program",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "SOC Rotation",
+              "description": "Study of SOC Rotation"
+            },
+            {
+              "week": 2,
+              "title": "Pen Testing",
+              "description": "Study of Pen Testing"
+            },
+            {
+              "week": 3,
+              "title": "Incident Response",
+              "description": "Study of Incident Response"
+            },
+            {
+              "week": 4,
+              "title": "Compliance Review",
+              "description": "Study of Compliance Review"
+            },
+            {
+              "week": 5,
+              "title": "Tool Evaluation",
+              "description": "Study of Tool Evaluation"
+            },
+            {
+              "week": 6,
+              "title": "Final Report",
+              "description": "Study of Final Report"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Industry Internship concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "CYB702",
+          "course_name": "Certification Prep",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [],
+          "description": "Industry certification preparation",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "CEH Review",
+              "description": "Study of CEH Review"
+            },
+            {
+              "week": 2,
+              "title": "CompTIA Security+",
+              "description": "Study of CompTIA Security+"
+            },
+            {
+              "week": 3,
+              "title": "OSCP Prep",
+              "description": "Study of OSCP Prep"
+            },
+            {
+              "week": 4,
+              "title": "Practice Labs",
+              "description": "Study of Practice Labs"
+            },
+            {
+              "week": 5,
+              "title": "Mock Exams",
+              "description": "Study of Mock Exams"
+            },
+            {
+              "week": 6,
+              "title": "Certification Strategy",
+              "description": "Study of Certification Strategy"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Certification Prep concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ],
+      "Semester 8": [
+        {
+          "course_code": "CYB801",
+          "course_name": "Capstone: Security Audit",
+          "category": "Capstone",
+          "credits": 3,
+          "prerequisites": [],
+          "description": "Comprehensive security assessment",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "Scope Definition",
+              "description": "Study of Scope Definition"
+            },
+            {
+              "week": 2,
+              "title": "Vulnerability Assessment",
+              "description": "Study of Vulnerability Assessment"
+            },
+            {
+              "week": 3,
+              "title": "Penetration Testing",
+              "description": "Study of Penetration Testing"
+            },
+            {
+              "week": 4,
+              "title": "Risk Analysis",
+              "description": "Study of Risk Analysis"
+            },
+            {
+              "week": 5,
+              "title": "Report Writing",
+              "description": "Study of Report Writing"
+            },
+            {
+              "week": 6,
+              "title": "Presentation",
+              "description": "Study of Presentation"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Capstone: Security Audit concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        },
+        {
+          "course_code": "CYB802",
+          "course_name": "Emerging Security Trends",
+          "category": "Core Requirement",
+          "credits": 3,
+          "prerequisites": [],
+          "description": "Future of cybersecurity",
+          "weekly_topics": [
+            {
+              "week": 1,
+              "title": "AI in Security",
+              "description": "Study of AI in Security"
+            },
+            {
+              "week": 2,
+              "title": "Quantum Threats",
+              "description": "Study of Quantum Threats"
+            },
+            {
+              "week": 3,
+              "title": "Zero Trust",
+              "description": "Study of Zero Trust"
+            },
+            {
+              "week": 4,
+              "title": "Extended Detection",
+              "description": "Study of Extended Detection"
+            },
+            {
+              "week": 5,
+              "title": "Security Automation",
+              "description": "Study of Security Automation"
+            },
+            {
+              "week": 6,
+              "title": "Career Planning",
+              "description": "Study of Career Planning"
+            }
+          ],
+          "outcomes": [
+            {
+              "outcome": "Apply Emerging Security Trends concepts",
+              "bloom_level": "Apply",
+              "code": "NBA-PO"
+            }
+          ]
+        }
+      ]
+    },
+    "recommended_skills": [
+      "Network Security",
+      "Ethical Hacking",
+      "SIEM Tools",
+      "Python",
+      "Linux"
+    ],
+    "industry_alignment_notes": "Aligned with cybersecurity roles at enterprises, consulting firms, and government agencies.",
+    "optimization_tips": [
+      "Add SOC analyst specialization track",
+      "Include industry certifications like CEH and CompTIA Security+"
+    ]
+  }
+}
