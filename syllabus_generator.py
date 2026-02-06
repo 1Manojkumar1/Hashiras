@@ -68,8 +68,9 @@ Be specific and detailed. Use actual topics relevant to the course."""
 def generate_syllabus(course_name: str, program: str, domain: str) -> str:
     """Generate detailed syllabus for a course."""
     
-    if not SYLLABUS_API_KEY or SYLLABUS_API_KEY == "your_openrouter_api_key_here":
-        return "⚠️ Please set SYLLABUS_API_KEY (or OPENROUTER_API_KEY) in your .env file."
+    invalid_keys = ["your_openrouter_api_key_here", "your_key_here", ""]
+    if not SYLLABUS_API_KEY or SYLLABUS_API_KEY in invalid_keys:
+        return "⚠️ Please set a valid SYLLABUS_API_KEY (or OPENROUTER_API_KEY) in your .env file."
     
     try:
         headers = {

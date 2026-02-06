@@ -1,0 +1,9 @@
+--- ENV DEBUG DIAGNOSTIC ---
+✅ OPENROUTER_API_KEY: Loaded successfully (Example: sk-o...8066, Length: 73)
+✅ SYLLABUS_API_KEY: Loaded successfully (Example: sk-o...c289, Length: 73)
+✅ RESOURCE_API_KEY: Loaded successfully (Example: sk-o...a04f, Length: 73)
+✅ GAP_API_KEY: Loaded successfully (Example: sk-o...3c0f, Length: 73)
+
+✅ .env file exists at: C:\Users\Dell\Documents\curricuforge\.env
+
+.env file has 5 lines.

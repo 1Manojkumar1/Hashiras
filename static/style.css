@@ -104,6 +104,17 @@
 [data-theme="dark"] textarea {
   background: #16172b;
   border-color: rgba(129, 140, 248, 0.25);
+  color: #000000;
+}
+
+[data-theme="dark"] input::placeholder,
+[data-theme="dark"] textarea::placeholder {
+  color: #000000;
+  opacity: 0.7;
+}
+
+[data-theme="dark"] select option {
+  background: #16172b;
   color: #f1f5f9;
 }
 

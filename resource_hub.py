@@ -35,9 +35,10 @@ Provide REAL, EXISTING resources with accurate URLs. Focus on highly-rated, popu
 def get_course_resources(course_name: str, domain: str = "") -> dict:
     """Get curated learning resources for a course."""
     
-    if not RESOURCE_API_KEY or RESOURCE_API_KEY == "your_openrouter_api_key_here":
+    invalid_keys = ["your_openrouter_api_key_here", "your_key_here", ""]
+    if not RESOURCE_API_KEY or RESOURCE_API_KEY in invalid_keys:
         return {
-            "error": "Please set RESOURCE_API_KEY in your .env file.",
+            "error": "Please set a valid RESOURCE_API_KEY in your .env file.",
             "moocs": [], "books": [], "youtube": []
         }
     
