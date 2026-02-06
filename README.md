@@ -91,4 +91,8 @@ To run CurrHub locally, follow these steps:
     -   Click **View Flowchart** to see a visual representation of the program structure.
     -   Click the **Syllabus** button on any course card to generate a detailed, unit-wise syllabus.
     -   Click the **Resources** button to get a curated list of MOOCs, books, and YouTube playlists for that course.
+
 -   **Use the Chatbot**: Click the floating chat icon on any page to open `CurrBot` and ask questions about different academic programs.
+=======
+-   **Use the Chatbot**: Click the floating chat icon on any page to open `CurrBot` and ask questions about different academic programs.
+
