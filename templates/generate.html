@@ -122,18 +122,82 @@
                 <div id="previewContent" style="display: none;">
                     <h2 id="previewTitle"></h2>
                     <div id="previewCourses"></div>
-                    <div style="text-align: center; margin-top: 3rem; margin-bottom: 2rem;">
+                    <div class="action-buttons-row"
+                        style="text-align: center; margin-top: 3rem; margin-bottom: 2rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
                         <button class="btn-download" onclick="downloadPDF()">
                             <i class="fas fa-file-pdf"></i> Download as PDF
+                        </button>
+                        <button class="btn-download btn-flowchart" onclick="showFlowchart()">
+                            <i class="fas fa-project-diagram"></i> View Flowchart
                         </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Flowchart Modal -->
+    <div id="flowchartModal" class="modal-overlay" style="display: none;">
+        <div class="modal-content flowchart-modal">
+            <div class="modal-header">
+                <h3><i class="fas fa-project-diagram"></i> Curriculum Flowchart</h3>
+                <button class="modal-close" onclick="closeFlowchart()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="flowchartContainer" class="mermaid"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Syllabus Modal -->
+    <div id="syllabusModal" class="modal-overlay" style="display: none;">
+        <div class="modal-content syllabus-modal">
+            <div class="modal-header">
+                <h3><i class="fas fa-book-open"></i> <span id="syllabusTitle">Course Syllabus</span></h3>
+                <button class="modal-close" onclick="closeSyllabus()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="syllabusContent"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="copySyllabus()">
+                    <i class="fas fa-copy"></i> Copy
+                </button>
+                <button class="btn-secondary" onclick="downloadSyllabus()">
+                    <i class="fas fa-download"></i> Download
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resource Modal -->
+    <div id="resourceModal" class="modal-overlay" style="display: none;">
+        <div class="modal-content resource-modal">
+            <div class="modal-header" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+                <h3><i class="fas fa-globe"></i> Resources: <span id="resourceTitle">Course</span></h3>
+                <button class="modal-close" onclick="closeResources()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="resourceContent"></div>
+            </div>
+        </div>
+    </div>
 </div>
+{% endblock %}
+
+{% block head %}
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 {% endblock %}
 
 {% block scripts %}
 <script src="/static/script.js"></script>
+<script>
+    mermaid.initialize({ startOnLoad: false, theme: 'default' });
+</script>
 {% endblock %}

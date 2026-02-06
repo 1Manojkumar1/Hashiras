@@ -3,10 +3,13 @@ from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
+from typing import Optional
 
 from schemas import CurriculumRequest, CurriculumResponse
 from ai_engine import generate_curriculum_with_gemini
 from chatbot import get_chat_response
+from syllabus_generator import generate_syllabus
+from gap_analyzer import analyze_gap
 
 app = FastAPI()
 
@@ -17,9 +20,19 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
 
-# Chat request model
+# Request models
 class ChatRequest(BaseModel):
     message: str
+
+class SyllabusRequest(BaseModel):
+    course_name: str
+    program: str
+    domain: str
+
+class GapRequest(BaseModel):
+    curriculum_summary: str
+    job_description: str
+
 
 @app.get("/", response_class=HTMLResponse)
 def get_home(request: Request):
@@ -28,6 +41,10 @@ def get_home(request: Request):
 @app.get("/generate", response_class=HTMLResponse)
 def get_generate(request: Request):
     return templates.TemplateResponse("generate.html", {"request": request})
+
+@app.get("/gap", response_class=HTMLResponse)
+def get_gap(request: Request):
+    return templates.TemplateResponse("gap.html", {"request": request})
 
 @app.get("/about", response_class=HTMLResponse)
 def get_about(request: Request):
@@ -49,3 +66,30 @@ def chat(data: ChatRequest):
     """Handle chatbot messages."""
     response = get_chat_response(data.message)
     return {"response": response}
+
+
+@app.post("/generate-syllabus")
+def syllabus(data: SyllabusRequest):
+    """Generate detailed syllabus for a course."""
+    result = generate_syllabus(data.course_name, data.program, data.domain)
+    return {"syllabus": result}
+
+
+@app.post("/analyze-gap")
+def gap(data: GapRequest):
+    """Analyze gap between curriculum and job requirements."""
+    result = analyze_gap(data.curriculum_summary, data.job_description)
+    return {"analysis": result}
+
+
+class ResourceRequest(BaseModel):
+    course_name: str
+    domain: str = ""
+
+
+@app.post("/get-resources")
+def resources(data: ResourceRequest):
+    """Get curated learning resources for a course."""
+    from resource_hub import get_course_resources
+    result = get_course_resources(data.course_name, data.domain)
+    return result
